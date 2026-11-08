@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grauer logo drafts</title>
+<style>
+  body { margin: 0; padding: 24px; background: #eef0f2; font-family: system-ui, sans-serif; color: #1b1f24; }
+  h1 { margin: 0 0 4px; font-size: 20px; }
+  p { margin: 0 0 20px; color: #555; }
+  .row { display: flex; gap: 28px; flex-wrap: wrap; align-items: flex-end; margin-bottom: 28px; }
+  .card { text-align: center; font-size: 13px; color: #444; }
+  .card svg { display: block; margin: 0 auto 6px; }
+  .dark { background: #0f1114; padding: 20px; border-radius: 12px; }
+  .dark .card { color: #bbb; }
+
+  /* Color variants: the same drawing, recolored with CSS variables */
+  .v-ember  { --bg1:#16191d; --fur:#3a3f47; --furHi:#525862; --brow:#1c1f23; --face:#646a73; --faceDk:#40454c; --ink:#121316; --silver:#aab2bb; --iris:#f29a2e; --accent:#f29a2e; }
+  .v-jungle { --bg1:#1d5440; --fur:#2a2e33; --furHi:#41474f; --brow:#16181b; --face:#5c626b; --faceDk:#383d44; --ink:#101113; --silver:#b4c2ba; --iris:#e8b04a; --accent:#e8b04a; }
+  .v-steel  { --bg1:#c3c9d0; --fur:#25292e; --furHi:#3c424a; --brow:#131518; --face:#5a6069; --faceDk:#383d44; --ink:#0f1012; --silver:#eef1f4; --iris:#d6452f; --accent:#d6452f; }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <!-- Gradients are fixed white/black overlays so each color variant can tint the shapes underneath -->
+    <radialGradient id="glow" cx="50%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.25"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="tile"><rect width="512" height="512" rx="112"/></clipPath>
+
+    <!-- Cheek fur tufts (left side; mirrored for the right) -->
+    <path id="tuft" d="M82 300 L 60 324 L 86 326 L 66 354 L 94 352 L 82 382 L 110 372 L 106 404 L 132 388 L 136 420 L 160 400 Z"/>
+
+    <!-- The gorilla head + silver shoulders (no background) -->
+    <symbol id="gorilla" viewBox="0 0 512 512">
+      <!-- silver shoulders: the "silverback" -->
+      <path d="M8 520 C 30 420, 120 372, 256 372 C 392 372, 482 420, 504 520 Z" style="fill:var(--silver)"/>
+      <path d="M8 520 C 30 420, 120 372, 256 372 C 392 372, 482 420, 504 520 Z" fill="url(#sheen)"/>
+      <!-- ears -->
+      <circle cx="84" cy="262" r="26" style="fill:var(--fur)"/>
+      <circle cx="428" cy="262" r="26" style="fill:var(--fur)"/>
+      <circle cx="87" cy="264" r="12" style="fill:var(--faceDk)"/>
+      <circle cx="425" cy="264" r="12" style="fill:var(--faceDk)"/>
+      <!-- head fur, with the tall crest gorillas have -->
+      <path d="M256 50
+               C 318 50, 362 90, 378 150
+               C 420 170, 440 222, 436 284
+               C 432 366, 368 446, 256 456
+               C 144 446, 80 366, 76 284
+               C 72 222, 92 170, 134 150
+               C 150 90, 194 50, 256 50 Z" style="fill:var(--fur)"/>
+      <use href="#tuft" style="fill:var(--fur)"/>
+      <use href="#tuft" transform="translate(512 0) scale(-1 1)" style="fill:var(--fur)"/>
+      <!-- crest highlight: a few fur strokes instead of a band -->
+      <g fill="none" style="stroke:var(--furHi)" stroke-width="9" stroke-linecap="round">
+        <path d="M206 96 C 222 82, 240 76, 256 76"/>
+        <path d="M306 96 C 290 82, 272 76, 256 76" />
+        <path d="M168 140 C 182 118, 200 104, 220 98"/>
+        <path d="M344 140 C 330 118, 312 104, 292 98"/>
+      </g>
+      <!-- face (bare skin) -->
+      <path d="M256 176
+               C 300 176, 338 186, 356 206
+               C 372 226, 368 252, 356 270
+               C 386 300, 394 350, 376 388
+               C 352 424, 300 440, 256 440
+               C 212 440, 160 424, 136 388
+               C 118 350, 126 300, 156 270
+               C 144 252, 140 226, 156 206
+               C 174 186, 212 176, 256 176 Z" style="fill:var(--face)"/>
+      <!-- eyes: drawn before the brow so the brow hoods them -->
+      <ellipse cx="206" cy="258" rx="18" ry="13" style="fill:var(--ink)"/>
+      <ellipse cx="306" cy="258" rx="18" ry="13" style="fill:var(--ink)"/>
+      <circle cx="209" cy="260" r="8" style="fill:var(--iris)"/>
+      <circle cx="303" cy="260" r="8" style="fill:var(--iris)"/>
+      <circle cx="209" cy="260" r="3.5" style="fill:var(--ink)"/>
+      <circle cx="303" cy="260" r="3.5" style="fill:var(--ink)"/>
+      <!-- heavy brow ridge, angled down toward the center = determined look -->
+      <path d="M128 228
+               C 168 190, 228 192, 256 212
+               C 284 192, 344 190, 384 228
+               C 370 246, 340 246, 316 250
+               C 292 254, 270 256, 256 266
+               C 242 256, 220 254, 196 250
+               C 172 246, 142 246, 128 228 Z" style="fill:var(--brow)"/>
+      <!-- broad flat nose -->
+      <path d="M256 266
+               C 268 266, 274 286, 280 298
+               C 304 304, 318 322, 308 340
+               C 298 356, 272 352, 256 346
+               C 240 352, 214 356, 204 340
+               C 194 322, 208 304, 232 298
+               C 238 286, 244 266, 256 266 Z" style="fill:var(--faceDk)"/>
+      <ellipse cx="232" cy="332" rx="14" ry="9" transform="rotate(-18 232 332)" style="fill:var(--ink)"/>
+      <ellipse cx="280" cy="332" rx="14" ry="9" transform="rotate(18 280 332)" style="fill:var(--ink)"/>
+      <!-- muzzle crease + stern, set mouth -->
+      <path d="M214 372 C 236 380, 276 380, 298 372" fill="none" style="stroke:var(--faceDk)" stroke-width="5" stroke-linecap="round"/>
+      <path d="M186 404 Q 196 396 212 396 L 300 396 Q 316 396 326 404" fill="none" style="stroke:var(--ink)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- App icon: rounded tile + gorilla -->
+    <symbol id="icon" viewBox="0 0 512 512">
+      <g clip-path="url(#tile)">
+        <rect width="512" height="512" style="fill:var(--bg1)"/>
+        <rect width="512" height="512" fill="url(#glow)"/>
+        <use href="#gorilla" width="512" height="512"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<h1>Grauer — logo drafts</h1>
+<p>Same gorilla drawing in three color directions. Shown at app-icon sizes, plus a wordmark lockup.</p>
+
+<h3>A · Ember (charcoal + amber)</h3>
+<div class="row v-ember">
+  <div class="card"><svg width="256" height="256"><use href="#icon"/></svg>256 px</div>
+  <div class="card"><svg width="120" height="120"><use href="#icon"/></svg>120 px</div>
+  <div class="card"><svg width="60" height="60"><use href="#icon"/></svg>60 px</div>
+  <div class="card"><svg width="32" height="32"><use href="#icon"/></svg>32 px</div>
+  <div class="card">
+    <svg width="460" height="120" viewBox="0 0 460 120">
+      <use href="#icon" x="0" y="0" width="120" height="120"/>
+      <text x="142" y="78" font-family="'Arial Black', 'Segoe UI Black', Impact, sans-serif" font-weight="900" font-size="60" letter-spacing="4" fill="#1b1f24">GRAUER</text>
+      <rect x="144" y="92" width="64" height="6" rx="3" style="fill:var(--accent)"/>
+    </svg>wordmark
+  </div>
+</div>
+
+<h3>B · Jungle (deep green + gold)</h3>
+<div class="row v-jungle">
+  <div class="card"><svg width="256" height="256"><use href="#icon"/></svg>256 px</div>
+  <div class="card"><svg width="120" height="120"><use href="#icon"/></svg>120 px</div>
+  <div class="card"><svg width="60" height="60"><use href="#icon"/></svg>60 px</div>
+  <div class="card"><svg width="32" height="32"><use href="#icon"/></svg>32 px</div>
+</div>
+
+<h3>C · Steel (silver + red)</h3>
+<div class="row v-steel">
+  <div class="card"><svg width="256" height="256"><use href="#icon"/></svg>256 px</div>
+  <div class="card"><svg width="120" height="120"><use href="#icon"/></svg>120 px</div>
+  <div class="card"><svg width="60" height="60"><use href="#icon"/></svg>60 px</div>
+  <div class="card"><svg width="32" height="32"><use href="#icon"/></svg>32 px</div>
+</div>
+
+<h3>On a dark home screen</h3>
+<div class="row dark">
+  <div class="card v-ember"><svg width="120" height="120"><use href="#icon"/></svg>A</div>
+  <div class="card v-jungle"><svg width="120" height="120"><use href="#icon"/></svg>B</div>
+  <div class="card v-steel"><svg width="120" height="120"><use href="#icon"/></svg>C</div>
+</div>
+
+</body>
+</html>

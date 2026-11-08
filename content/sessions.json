@@ -1,0 +1,685 @@
+{
+ "_about": "Session templates. Warm-up and cool-down seconds are written for a 30-minute session (5 min each) and get scaled to the chosen length. The main block's rounds are worked out from the time left over. Real program scheduling arrives in M2.",
+ "sessions": [
+  {
+   "id": "full-body-foundation",
+   "name": "Full-Body Foundation",
+   "type": "Strength",
+   "level": "juvenile",
+   "description": "Squat, push, hinge, lunge, back and core in a simple circuit. The backbone of week one.",
+   "warmup": [
+    {
+     "ex": "march-in-place",
+     "sec": 60
+    },
+    {
+     "ex": "arm-circles",
+     "sec": 30
+    },
+    {
+     "ex": "hip-circles",
+     "sec": 30
+    },
+    {
+     "ex": "leg-swings",
+     "sec": 40
+    },
+    {
+     "ex": "inchworm",
+     "sec": 40
+    },
+    {
+     "ex": "glute-bridge",
+     "sec": 30
+    },
+    {
+     "ex": "scap-push-up",
+     "sec": 30
+    },
+    {
+     "ex": "jumping-jacks",
+     "sec": 40
+    }
+   ],
+   "main": {
+    "format": "circuit",
+    "rest": 20,
+    "roundRest": 60,
+    "maxRounds": 6,
+    "items": [
+     {
+      "ex": "air-squat",
+      "reps": 10
+     },
+     {
+      "ex": "incline-push-up",
+      "reps": 8
+     },
+     {
+      "ex": "glute-bridge",
+      "reps": 12
+     },
+     {
+      "ex": "reverse-lunge",
+      "reps": 6
+     },
+     {
+      "ex": "superman",
+      "reps": 10
+     },
+     {
+      "ex": "plank",
+      "sec": 30
+     }
+    ]
+   },
+   "cooldown": [
+    {
+     "ex": "childs-pose",
+     "sec": 45
+    },
+    {
+     "ex": "cobra",
+     "sec": 30
+    },
+    {
+     "ex": "seated-hamstring-stretch",
+     "sec": 45
+    },
+    {
+     "ex": "kneeling-hip-flexor-stretch",
+     "sec": 60
+    },
+    {
+     "ex": "chest-stretch",
+     "sec": 40
+    },
+    {
+     "ex": "cross-body-shoulder-stretch",
+     "sec": 40
+    },
+    {
+     "ex": "box-breathing",
+     "sec": 40
+    }
+   ],
+   "tracks": [
+    "standard"
+   ]
+  },
+  {
+   "id": "hiit-starter",
+   "name": "HIIT Starter",
+   "type": "HIIT",
+   "level": "juvenile",
+   "description": "30 seconds on, 30 seconds off. Six moves per round to get your heart rate up without wrecking you.",
+   "warmup": [
+    {
+     "ex": "march-in-place",
+     "sec": 60
+    },
+    {
+     "ex": "jog-in-place",
+     "sec": 45
+    },
+    {
+     "ex": "arm-circles",
+     "sec": 30
+    },
+    {
+     "ex": "hip-circles",
+     "sec": 30
+    },
+    {
+     "ex": "worlds-greatest-stretch",
+     "sec": 60
+    },
+    {
+     "ex": "butt-kicks",
+     "sec": 30
+    },
+    {
+     "ex": "high-knees",
+     "sec": 20
+    },
+    {
+     "ex": "inchworm",
+     "sec": 25
+    }
+   ],
+   "main": {
+    "format": "intervals",
+    "work": 30,
+    "rest": 30,
+    "roundRest": 60,
+    "maxRounds": 6,
+    "items": [
+     {
+      "ex": "jumping-jacks"
+     },
+     {
+      "ex": "air-squat"
+     },
+     {
+      "ex": "mountain-climbers"
+     },
+     {
+      "ex": "step-back-burpee"
+     },
+     {
+      "ex": "high-knees"
+     },
+     {
+      "ex": "plank"
+     }
+    ]
+   },
+   "cooldown": [
+    {
+     "ex": "march-in-place",
+     "sec": 45
+    },
+    {
+     "ex": "standing-quad-stretch",
+     "sec": 50
+    },
+    {
+     "ex": "seated-hamstring-stretch",
+     "sec": 45
+    },
+    {
+     "ex": "downward-dog",
+     "sec": 40
+    },
+    {
+     "ex": "childs-pose",
+     "sec": 45
+    },
+    {
+     "ex": "knees-to-chest",
+     "sec": 35
+    },
+    {
+     "ex": "box-breathing",
+     "sec": 40
+    }
+   ],
+   "tracks": [
+    "standard"
+   ]
+  },
+  {
+   "id": "mobility-reset",
+   "name": "Mobility Reset",
+   "type": "Mobility",
+   "level": "juvenile",
+   "description": "Slow, yoga-style flow for hips, hamstrings, back and shoulders. Great on a recovery day.",
+   "warmup": [
+    {
+     "ex": "march-in-place",
+     "sec": 60
+    },
+    {
+     "ex": "arm-circles",
+     "sec": 40
+    },
+    {
+     "ex": "hip-circles",
+     "sec": 40
+    },
+    {
+     "ex": "leg-swings",
+     "sec": 60
+    },
+    {
+     "ex": "inchworm",
+     "sec": 50
+    },
+    {
+     "ex": "scap-push-up",
+     "sec": 50
+    }
+   ],
+   "main": {
+    "format": "flow",
+    "roundRest": 15,
+    "maxRounds": 5,
+    "items": [
+     {
+      "ex": "worlds-greatest-stretch",
+      "sec": 60
+     },
+     {
+      "ex": "downward-dog",
+      "sec": 45
+     },
+     {
+      "ex": "cobra",
+      "sec": 30
+     },
+     {
+      "ex": "childs-pose",
+      "sec": 45
+     },
+     {
+      "ex": "kneeling-hip-flexor-stretch",
+      "sec": 60
+     },
+     {
+      "ex": "bird-dog",
+      "sec": 60
+     },
+     {
+      "ex": "glute-bridge",
+      "sec": 45
+     },
+     {
+      "ex": "seated-hamstring-stretch",
+      "sec": 45
+     }
+    ]
+   },
+   "cooldown": [
+    {
+     "ex": "knees-to-chest",
+     "sec": 60
+    },
+    {
+     "ex": "cross-body-shoulder-stretch",
+     "sec": 60
+    },
+    {
+     "ex": "overhead-triceps-stretch",
+     "sec": 60
+    },
+    {
+     "ex": "childs-pose",
+     "sec": 60
+    },
+    {
+     "ex": "box-breathing",
+     "sec": 60
+    }
+   ],
+   "tracks": [
+    "standard"
+   ]
+  },
+  {
+   "id": "prenatal-strength",
+   "name": "Prenatal Strength & Mobility",
+   "type": "Prenatal",
+   "tracks": [
+    "prenatal"
+   ],
+   "level": "any",
+   "description": "Standing, seated and side-lying strength with breath work. No lying flat on your back, no jumping. Use the talk test: you should be able to hold a conversation.",
+   "warmup": [
+    {
+     "ex": "march-in-place",
+     "sec": 60
+    },
+    {
+     "ex": "arm-circles",
+     "sec": 40
+    },
+    {
+     "ex": "hip-circles",
+     "sec": 50
+    },
+    {
+     "ex": "step-jacks",
+     "sec": 40
+    },
+    {
+     "ex": "cat-cow",
+     "sec": 60
+    },
+    {
+     "ex": "connection-breath",
+     "sec": 50
+    }
+   ],
+   "main": {
+    "format": "circuit",
+    "rest": 30,
+    "roundRest": 60,
+    "maxRounds": 3,
+    "items": [
+     {
+      "ex": "box-squat",
+      "reps": 10
+     },
+     {
+      "ex": "incline-push-up",
+      "reps": 8
+     },
+     {
+      "ex": "side-lying-clamshell",
+      "reps": 10
+     },
+     {
+      "ex": "bird-dog",
+      "reps": 6
+     },
+     {
+      "ex": "incline-plank",
+      "sec": 20
+     },
+     {
+      "ex": "pelvic-floor-lifts",
+      "reps": 8
+     }
+    ]
+   },
+   "cooldown": [
+    {
+     "ex": "kneeling-hip-flexor-stretch",
+     "sec": 60
+    },
+    {
+     "ex": "butterfly-stretch",
+     "sec": 50
+    },
+    {
+     "ex": "cat-cow",
+     "sec": 50
+    },
+    {
+     "ex": "childs-pose",
+     "sec": 50
+    },
+    {
+     "ex": "cross-body-shoulder-stretch",
+     "sec": 40
+    },
+    {
+     "ex": "connection-breath",
+     "sec": 50
+    }
+   ]
+  },
+  {
+   "id": "prenatal-mobility",
+   "name": "Prenatal Mobility & Breath",
+   "type": "Prenatal",
+   "tracks": [
+    "prenatal"
+   ],
+   "level": "any",
+   "description": "Gentle yoga-style flow for hips, back and pelvic floor. Stand near a wall for the balance poses.",
+   "warmup": [
+    {
+     "ex": "march-in-place",
+     "sec": 60
+    },
+    {
+     "ex": "arm-circles",
+     "sec": 40
+    },
+    {
+     "ex": "hip-circles",
+     "sec": 60
+    },
+    {
+     "ex": "cat-cow",
+     "sec": 70
+    },
+    {
+     "ex": "connection-breath",
+     "sec": 70
+    }
+   ],
+   "main": {
+    "format": "flow",
+    "roundRest": 20,
+    "maxRounds": 3,
+    "items": [
+     {
+      "ex": "cat-cow",
+      "sec": 45
+     },
+     {
+      "ex": "thread-the-needle",
+      "sec": 60
+     },
+     {
+      "ex": "low-lunge",
+      "sec": 60
+     },
+     {
+      "ex": "warrior-2",
+      "sec": 60
+     },
+     {
+      "ex": "tree-pose",
+      "sec": 40
+     },
+     {
+      "ex": "butterfly-stretch",
+      "sec": 45
+     },
+     {
+      "ex": "pelvic-floor-quick-flicks",
+      "sec": 30
+     },
+     {
+      "ex": "connection-breath",
+      "sec": 45
+     }
+    ]
+   },
+   "cooldown": [
+    {
+     "ex": "childs-pose",
+     "sec": 60
+    },
+    {
+     "ex": "cross-body-shoulder-stretch",
+     "sec": 60
+    },
+    {
+     "ex": "overhead-triceps-stretch",
+     "sec": 60
+    },
+    {
+     "ex": "neck-stretch",
+     "sec": 60
+    },
+    {
+     "ex": "connection-breath",
+     "sec": 60
+    }
+   ]
+  },
+  {
+   "id": "postpartum-reconnect",
+   "name": "Postpartum Reconnect",
+   "type": "Postpartum",
+   "tracks": [
+    "postpartum"
+   ],
+   "phase": 1,
+   "level": "any",
+   "description": "Phase 1: breathing, pelvic floor and deep core. Gentle enough for the early weeks, once your provider says gentle movement is OK.",
+   "warmup": [
+    {
+     "ex": "connection-breath",
+     "sec": 90
+    },
+    {
+     "ex": "march-in-place",
+     "sec": 60
+    },
+    {
+     "ex": "arm-circles",
+     "sec": 50
+    },
+    {
+     "ex": "hip-circles",
+     "sec": 50
+    },
+    {
+     "ex": "cat-cow",
+     "sec": 50
+    }
+   ],
+   "main": {
+    "format": "flow",
+    "roundRest": 30,
+    "maxRounds": 2,
+    "items": [
+     {
+      "ex": "connection-breath",
+      "sec": 45
+     },
+     {
+      "ex": "pelvic-floor-lifts",
+      "sec": 45
+     },
+     {
+      "ex": "pelvic-floor-quick-flicks",
+      "sec": 30
+     },
+     {
+      "ex": "heel-slides",
+      "sec": 60
+     },
+     {
+      "ex": "supine-pelvic-tilt",
+      "sec": 45
+     },
+     {
+      "ex": "side-lying-clamshell",
+      "sec": 60
+     },
+     {
+      "ex": "bird-dog",
+      "sec": 60
+     }
+    ]
+   },
+   "cooldown": [
+    {
+     "ex": "childs-pose",
+     "sec": 60
+    },
+    {
+     "ex": "knees-to-chest",
+     "sec": 60
+    },
+    {
+     "ex": "cat-cow",
+     "sec": 60
+    },
+    {
+     "ex": "box-breathing",
+     "sec": 60
+    },
+    {
+     "ex": "cross-body-shoulder-stretch",
+     "sec": 60
+    }
+   ]
+  },
+  {
+   "id": "postpartum-rebuild",
+   "name": "Postpartum Rebuild",
+   "type": "Postpartum",
+   "tracks": [
+    "postpartum"
+   ],
+   "phase": 2,
+   "level": "any",
+   "description": "Phase 2: low-impact strength for legs, glutes, back and core. For after your provider has cleared you for exercise (usually around 6 weeks).",
+   "warmup": [
+    {
+     "ex": "march-in-place",
+     "sec": 60
+    },
+    {
+     "ex": "arm-circles",
+     "sec": 30
+    },
+    {
+     "ex": "hip-circles",
+     "sec": 30
+    },
+    {
+     "ex": "cat-cow",
+     "sec": 50
+    },
+    {
+     "ex": "connection-breath",
+     "sec": 40
+    },
+    {
+     "ex": "glute-bridge",
+     "sec": 40
+    },
+    {
+     "ex": "scap-push-up",
+     "sec": 50
+    }
+   ],
+   "main": {
+    "format": "circuit",
+    "rest": 25,
+    "roundRest": 60,
+    "maxRounds": 4,
+    "items": [
+     {
+      "ex": "box-squat",
+      "reps": 10
+     },
+     {
+      "ex": "incline-push-up",
+      "reps": 8
+     },
+     {
+      "ex": "glute-bridge",
+      "reps": 12
+     },
+     {
+      "ex": "side-lying-clamshell",
+      "reps": 12
+     },
+     {
+      "ex": "bird-dog",
+      "reps": 6
+     },
+     {
+      "ex": "heel-slides",
+      "reps": 8
+     },
+     {
+      "ex": "pelvic-floor-lifts",
+      "reps": 8
+     }
+    ]
+   },
+   "cooldown": [
+    {
+     "ex": "kneeling-hip-flexor-stretch",
+     "sec": 60
+    },
+    {
+     "ex": "seated-hamstring-stretch",
+     "sec": 50
+    },
+    {
+     "ex": "figure-4-stretch",
+     "sec": 60
+    },
+    {
+     "ex": "childs-pose",
+     "sec": 50
+    },
+    {
+     "ex": "box-breathing",
+     "sec": 80
+    }
+   ]
+  }
+ ]
+}

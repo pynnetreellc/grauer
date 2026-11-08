@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<title>Grauer</title>
+<defs>
+    <radialGradient id="glow" cx="50%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.25"/>
+    </radialGradient>
+    <clipPath id="tile"><rect width="512" height="512" rx="112"/></clipPath>
+
+    <!-- ===== HEAD (512 box, centered on 256,250) ===== -->
+    <path id="headShape" d="M256 50 C 318 50, 362 90, 378 150 C 420 170, 440 222, 436 284 C 432 366, 368 446, 256 456 C 144 446, 80 366, 76 284 C 72 222, 92 170, 134 150 C 150 90, 194 50, 256 50 Z"/>
+    <clipPath id="headClip"><use href="#headShape"/></clipPath>
+    <path id="tuft" d="M82 300 L 60 324 L 86 326 L 66 354 L 94 352 L 82 382 L 110 372 L 106 404 L 132 388 L 136 420 L 160 400 Z"/>
+    <g id="head">
+      <!-- sweatband tails, knotted at the back right -->
+      <path d="M410 150 C 450 140, 482 158, 500 190 L 476 200 C 462 178, 440 168, 414 172 Z" fill="#2f7d47"/>
+      <path d="M412 168 C 448 176, 470 204, 474 238 L 450 238 C 446 212, 432 196, 408 190 Z" fill="#4fb36f"/>
+      <path d="M410 150 C 450 140, 482 158, 500 190 L 476 200 C 462 178, 440 168, 414 172 Z" fill="none" stroke="#0e0f11" stroke-width="13" stroke-linejoin="round"/>
+      <path d="M412 168 C 448 176, 470 204, 474 238 L 450 238 C 446 212, 432 196, 408 190 Z" fill="none" stroke="#0e0f11" stroke-width="13" stroke-linejoin="round"/>
+      <circle cx="84" cy="262" r="26" fill="#2a2e33"/><circle cx="84" cy="262" r="26" fill="none" stroke="#0e0f11" stroke-width="13" stroke-linejoin="round"/>
+      <circle cx="428" cy="262" r="26" fill="#2a2e33"/><circle cx="428" cy="262" r="26" fill="none" stroke="#0e0f11" stroke-width="13" stroke-linejoin="round"/>
+      <circle cx="87" cy="264" r="11" fill="#383d44"/>
+      <circle cx="425" cy="264" r="11" fill="#383d44"/>
+      <use href="#headShape" fill="none" stroke="#0e0f11" stroke-width="13" stroke-linejoin="round"/>
+      <use href="#headShape" fill="#2a2e33"/>
+      <use href="#tuft" fill="#2a2e33"/>
+      <use href="#tuft" transform="translate(512 0) scale(-1 1)" fill="#2a2e33"/>
+      <g fill="none" stroke="#4a515a" stroke-width="10" stroke-linecap="round">
+        <path d="M206 96 C 222 82, 240 76, 256 76"/>
+        <path d="M306 96 C 290 82, 272 76, 256 76"/>
+      </g>
+      <path d="M256 176 C 300 176, 338 186, 356 206 C 372 226, 368 252, 356 270 C 386 300, 394 350, 376 388 C 352 424, 300 440, 256 440 C 212 440, 160 424, 136 388 C 118 350, 126 300, 156 270 C 144 252, 140 226, 156 206 C 174 186, 212 176, 256 176 Z" fill="#5c626b"/>
+      <!-- sweatband, clipped to the head outline -->
+      <g clip-path="url(#headClip)">
+        <path d="M40 146 C 160 108, 352 108, 472 146 L 472 202 C 352 164, 160 164, 40 202 Z" fill="#4fb36f"/>
+        <path d="M40 176 C 160 138, 352 138, 472 176" fill="none" stroke="#2f7d47" stroke-width="9"/>
+        <path d="M40 146 C 160 108, 352 108, 472 146 M 472 202 C 352 164, 160 164, 40 202" fill="none" stroke="#0e0f11" stroke-width="13" stroke-linejoin="round"/>
+      </g>
+      <ellipse cx="206" cy="258" rx="18" ry="13" fill="#0e0f11"/>
+      <ellipse cx="306" cy="258" rx="18" ry="13" fill="#0e0f11"/>
+      <circle cx="209" cy="260" r="8" fill="#e8b04a"/>
+      <circle cx="303" cy="260" r="8" fill="#e8b04a"/>
+      <circle cx="209" cy="260" r="3.5" fill="#0e0f11"/>
+      <circle cx="303" cy="260" r="3.5" fill="#0e0f11"/>
+      <path d="M128 228 C 168 190, 228 192, 256 212 C 284 192, 344 190, 384 228 C 370 246, 340 246, 316 250 C 292 254, 270 256, 256 266 C 242 256, 220 254, 196 250 C 172 246, 142 246, 128 228 Z" fill="#16181b"/>
+      <path d="M256 266 C 268 266, 274 286, 280 298 C 304 304, 318 322, 308 340 C 298 356, 272 352, 256 346 C 240 352, 214 356, 204 340 C 194 322, 208 304, 232 298 C 238 286, 244 266, 256 266 Z" fill="#383d44"/>
+      <ellipse cx="232" cy="332" rx="14" ry="9" transform="rotate(-18 232 332)" fill="#0e0f11"/>
+      <ellipse cx="280" cy="332" rx="14" ry="9" transform="rotate(18 280 332)" fill="#0e0f11"/>
+      <path d="M214 372 C 236 380, 276 380, 298 372" fill="none" stroke="#383d44" stroke-width="6" stroke-linecap="round"/>
+      <path d="M186 404 Q 196 396 212 396 L 300 396 Q 316 396 326 404" fill="none" stroke="#0e0f11" stroke-width="9" stroke-linecap="round"/>
+    </g>
+
+    <!-- ===== FIST (centered on 0,0) ===== -->
+    <g id="fist">
+      <rect x="-40" y="-36" width="80" height="72" rx="30" fill="#5c626b"/>
+      <rect x="-40" y="-36" width="80" height="72" rx="30" fill="none" stroke="#0e0f11" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+      <g fill="none" stroke="#383d44" stroke-width="5" stroke-linecap="round">
+        <path d="M-20 -30 L -20 -8"/><path d="M0 -32 L 0 -10"/><path d="M20 -30 L 20 -8"/>
+      </g>
+    </g>
+
+    <!-- ===== POSE A: arms crossed ===== -->
+    <path id="torsoA" d="M256 116 C 196 116, 152 146, 132 190 L 120 520 L 392 520 L 380 190 C 360 146, 316 116, 256 116 Z"/>
+    <clipPath id="torsoAClip"><use href="#torsoA"/></clipPath>
+    <path id="armAShape" d="M150 176 C 84 164, 30 214, 24 300 C 18 372, 36 430, 70 474 L 156 452 C 140 400, 144 344, 164 292 C 178 248, 180 200, 150 176 Z"/>
+    <clipPath id="armAClip"><use href="#armAShape"/></clipPath>
+    <g id="armA">
+      <use href="#armAShape" fill="#3a4048"/>
+      <path d="M150 176 C 84 164, 30 214, 24 300" fill="none" stroke="#c3cfc8" stroke-width="34" clip-path="url(#armAClip)"/>
+      <path d="M40 330 C 74 316, 112 324, 138 352" fill="none" stroke="#0e0f11" stroke-width="6" stroke-linecap="round"/>
+      <use href="#armAShape" fill="none" stroke="#0e0f11" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <symbol id="poseA" viewBox="0 0 512 512">
+      <g clip-path="url(#tile)">
+        <rect width="512" height="512" fill="#1d5440"/>
+        <rect width="512" height="512" fill="url(#glow)"/>
+        <use href="#torsoA" fill="#2a2e33"/>
+        <path d="M132 190 C 152 146, 196 116, 256 116 C 316 116, 360 146, 380 190" fill="none" stroke="#c3cfc8" stroke-width="30" clip-path="url(#torsoAClip)"/>
+        <use href="#torsoA" fill="none" stroke="#0e0f11" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+        <!-- chest -->
+        <path d="M256 304 C 226 294, 178 296, 158 324 C 142 352, 160 390, 200 394 C 228 396, 250 386, 256 376 Z" fill="#383d44"/>
+        <path d="M256 304 C 286 294, 334 296, 354 324 C 370 352, 352 390, 312 394 C 284 396, 262 386, 256 376 Z" fill="#383d44"/>
+        <use href="#armA"/>
+        <use href="#armA" transform="translate(512 0) scale(-1 1)"/>
+        <use href="#head" transform="translate(256 196) scale(0.56) translate(-256 -250)"/>
+        <!-- back forearm: right elbow → fist tucked by the left biceps -->
+        <path d="M468 452 C 400 420, 260 396, 172 386 L 166 442 C 250 450, 380 476, 450 512 Z" fill="#3a4048"/>
+        <path d="M468 452 C 400 420, 260 396, 172 386 L 166 442 C 250 450, 380 476, 450 512 Z" fill="none" stroke="#0e0f11" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M184 386 L 210 389 L 206 446 L 180 443 Z" fill="#4fb36f"/>
+        <path d="M184 386 L 210 389 L 206 446 L 180 443 Z" fill="none" stroke="#0e0f11" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+        <use href="#fist" transform="translate(150 414) rotate(-90)"/>
+        <!-- front forearm: left elbow → fist tucked by the right biceps -->
+        <path d="M44 470 C 112 440, 252 410, 340 398 L 348 456 C 264 464, 136 490, 64 520 Z" fill="#3a4048"/>
+        <path d="M70 458 C 140 432, 260 410, 330 402" fill="none" stroke="#4a515a" stroke-width="8" stroke-linecap="round"/>
+        <path d="M44 470 C 112 440, 252 410, 340 398 L 348 456 C 264 464, 136 490, 64 520 Z" fill="none" stroke="#0e0f11" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M314 400 L 340 397 L 346 455 L 320 458 Z" fill="#4fb36f"/>
+        <path d="M314 400 L 340 397 L 346 455 L 320 458 Z" fill="none" stroke="#0e0f11" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+        <use href="#fist" transform="translate(368 426) rotate(90)"/>
+      </g>
+    </symbol>
+
+    <!-- ===== POSE B: double-biceps flex (left arm; right is mirrored) ===== -->
+    <path id="bicepB" d="M196 300 C 186 236, 128 214, 88 236 C 46 258, 26 318, 48 352 C 76 384, 150 372, 200 350 Z"/>
+    <clipPath id="bicepBClip"><use href="#bicepB"/></clipPath>
+    <g id="flexArm">
+      <!-- forearm (behind the biceps) -->
+      <path d="M34 340 C 26 284, 40 228, 62 190 L 122 192 C 118 236, 108 290, 104 340 Z" fill="#3a4048"/>
+      <path d="M34 340 C 26 284, 40 228, 62 190 L 122 192 C 118 236, 108 290, 104 340 Z" fill="none" stroke="#0e0f11" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M54 182 L 128 184 L 124 214 L 48 210 Z" fill="#4fb36f"/>
+      <path d="M54 182 L 128 184 L 124 214 L 48 210 Z" fill="none" stroke="#0e0f11" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+      <use href="#fist" transform="translate(90 150)"/>
+      <!-- biceps peak -->
+      <use href="#bicepB" fill="#3a4048"/>
+      <path d="M196 300 C 186 236, 128 214, 88 236 C 46 258" fill="none" stroke="#c3cfc8" stroke-width="30" clip-path="url(#bicepBClip)"/>
+      <path d="M140 318 C 118 300, 88 302, 70 320" fill="none" stroke="#0e0f11" stroke-width="6" stroke-linecap="round"/>
+      <use href="#bicepB" fill="none" stroke="#0e0f11" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <path id="torsoB" d="M256 212 C 312 214, 356 248, 384 292 C 426 330, 430 420, 410 520 L 102 520 C 82 420, 86 330, 128 292 C 156 248, 200 214, 256 212 Z"/>
+    <clipPath id="torsoBClip"><use href="#torsoB"/></clipPath>
+    <symbol id="poseB" viewBox="0 0 512 512">
+      <g clip-path="url(#tile)">
+        <rect width="512" height="512" fill="#1d5440"/>
+        <rect width="512" height="512" fill="url(#glow)"/>
+        <use href="#torsoB" fill="#2a2e33"/>
+        <path d="M128 292 C 156 248, 200 214, 256 212 C 312 214, 356 248, 384 292" fill="none" stroke="#c3cfc8" stroke-width="30" clip-path="url(#torsoBClip)"/>
+        <use href="#torsoB" fill="none" stroke="#0e0f11" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M256 340 C 225 328, 182 330, 162 358 C 146 388, 166 426, 206 428 C 232 430, 250 418, 256 408 Z" fill="#383d44"/>
+        <path d="M256 340 C 287 328, 330 330, 350 358 C 366 388, 346 426, 306 428 C 280 430, 262 418, 256 408 Z" fill="#383d44"/>
+        <use href="#flexArm"/>
+        <use href="#flexArm" transform="translate(512 0) scale(-1 1)"/>
+        <use href="#head" transform="translate(256 246) scale(0.5) translate(-256 -250)"/>
+      </g>
+    </symbol>
+  </defs>
+<use href="#poseB" width="512" height="512"/>
+</svg>

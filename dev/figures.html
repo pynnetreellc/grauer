@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Figure check</title>
+<link rel="stylesheet" href="../css/app.css">
+<style>
+  body { padding: 16px; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); }
+  .card { padding: 8px; margin: 0; }
+  .card b { display: block; font-size: 12px; }
+  .frames { display: flex; gap: 2px; }
+  .frames > div { flex: 1; }
+</style>
+</head>
+<body>
+<h2>Dev: every exercise, every key pose</h2>
+<p class="muted small">Top: animated demo. Bottom: each key frame. Used to check pose data in content/poses.json.</p>
+<div id="out" class="grid"></div>
+<script type="module">
+  import { Figure } from '../js/figure.js';
+  const [poses, lib] = await Promise.all([
+    fetch('../content/poses.json').then(r => r.json()),
+    fetch('../content/exercises.json').then(r => r.json()),
+  ]);
+  const out = document.getElementById('out');
+  const animate = !location.search.includes('static');
+  for (const ex of lib.exercises) {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `<b>${ex.name}</b><div class="fig-box"></div><div class="frames"></div>`;
+    out.appendChild(card);
+    new Figure(card.querySelector('.fig-box'), poses, { animate }).setExercise(ex);
+    if (ex.frames.length > 1) {
+      ex.frames.forEach((_, i) => {
+        const d = document.createElement('div');
+        d.className = 'fig-box';
+        card.querySelector('.frames').appendChild(d);
+        new Figure(d, poses, { animate: false, frame: i }).setExercise(ex);
+      });
+    }
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,2640 @@
+{
+ "_about": "Exercise library. frames = pose names from poses.json (the demo loops through them). tempo = seconds per frame. impact high = jumping/bouncing; lowImpactAlt is swapped in when Low-Impact mode is on. reviewed_by/reviewed_on are filled in by the PT/phys-ed review (SPEC 13a).",
+ "exercises": [
+  {
+   "id": "march-in-place",
+   "name": "March in Place",
+   "category": "warmup",
+   "pattern": "cardio",
+   "impact": "low",
+   "frames": [
+    "march_a",
+    "march_b"
+   ],
+   "tempo": 0.6,
+   "cues": [
+    "Drive knees up toward hip height",
+    "Swing the opposite arm",
+    "Stand tall, brace your core"
+   ],
+   "mistake": "Shuffling with tiny steps. Lift the knees.",
+   "muscles": [
+    "hips",
+    "legs",
+    "heart rate"
+   ]
+  },
+  {
+   "id": "jog-in-place",
+   "name": "Jog in Place",
+   "category": "warmup",
+   "pattern": "cardio",
+   "impact": "high",
+   "lowImpactAlt": "march-in-place",
+   "frames": [
+    "jog_a",
+    "jog_b"
+   ],
+   "tempo": 0.32,
+   "cues": [
+    "Light, quick feet",
+    "Land on the balls of your feet",
+    "Relax your shoulders"
+   ],
+   "mistake": "Pounding heels into the floor.",
+   "muscles": [
+    "calves",
+    "legs",
+    "heart rate"
+   ]
+  },
+  {
+   "id": "jumping-jacks",
+   "name": "Jumping Jacks",
+   "category": "warmup",
+   "pattern": "cardio",
+   "impact": "high",
+   "lowImpactAlt": "step-jacks",
+   "frames": [
+    "jack_closed",
+    "jack_open"
+   ],
+   "tempo": 0.42,
+   "cues": [
+    "Jump feet wide as arms go overhead",
+    "Soft knees on every landing",
+    "Keep a steady rhythm"
+   ],
+   "mistake": "Landing stiff-legged.",
+   "muscles": [
+    "full body",
+    "heart rate"
+   ]
+  },
+  {
+   "id": "step-jacks",
+   "name": "Step Jacks",
+   "category": "warmup",
+   "pattern": "cardio",
+   "impact": "low",
+   "frames": [
+    "jack_closed",
+    "step_jack_a",
+    "jack_closed",
+    "step_jack_b"
+   ],
+   "tempo": 0.55,
+   "cues": [
+    "Step one foot out as arms go up",
+    "Alternate sides",
+    "Move with purpose. No jumping needed."
+   ],
+   "mistake": "Letting the arms go limp.",
+   "muscles": [
+    "full body",
+    "heart rate"
+   ]
+  },
+  {
+   "id": "arm-circles",
+   "name": "Arm Circles",
+   "category": "warmup",
+   "pattern": "mobility",
+   "impact": "low",
+   "frames": [
+    "arms_out",
+    "arms_up45",
+    "arms_out",
+    "arms_down45"
+   ],
+   "tempo": 0.45,
+   "cues": [
+    "Arms straight out to the sides",
+    "Small circles, getting bigger",
+    "Switch direction halfway"
+   ],
+   "mistake": "Shrugging the shoulders up to the ears.",
+   "muscles": [
+    "shoulders"
+   ]
+  },
+  {
+   "id": "leg-swings",
+   "name": "Leg Swings",
+   "category": "warmup",
+   "pattern": "mobility",
+   "impact": "low",
+   "perSide": true,
+   "frames": [
+    "leg_swing_f",
+    "leg_swing_b"
+   ],
+   "tempo": 0.75,
+   "cues": [
+    "Hold a wall or chair for balance",
+    "Swing forward and back, relaxed",
+    "Keep the standing knee soft"
+   ],
+   "mistake": "Arching the lower back on the back swing.",
+   "muscles": [
+    "hips",
+    "hamstrings"
+   ]
+  },
+  {
+   "id": "hip-circles",
+   "name": "Hip Circles",
+   "category": "warmup",
+   "pattern": "mobility",
+   "impact": "low",
+   "frames": [
+    "hip_circle_l",
+    "hip_circle_r"
+   ],
+   "tempo": 0.8,
+   "cues": [
+    "Hands on hips, feet hip-width",
+    "Draw big slow circles with your hips",
+    "Switch direction halfway"
+   ],
+   "mistake": "Moving the shoulders instead of the hips.",
+   "muscles": [
+    "hips",
+    "lower back"
+   ]
+  },
+  {
+   "id": "worlds-greatest-stretch",
+   "name": "World's Greatest Stretch",
+   "category": "warmup",
+   "pattern": "mobility",
+   "impact": "low",
+   "perSide": true,
+   "frames": [
+    "wgs_a",
+    "wgs_b"
+   ],
+   "tempo": 1.4,
+   "cues": [
+    "Step into a deep lunge, hands down",
+    "Rotate and reach the inside arm to the ceiling",
+    "Follow your hand with your eyes"
+   ],
+   "mistake": "Letting the front knee cave inward.",
+   "muscles": [
+    "hips",
+    "upper back",
+    "hamstrings"
+   ]
+  },
+  {
+   "id": "inchworm",
+   "name": "Inchworm",
+   "category": "warmup",
+   "pattern": "mobility",
+   "impact": "low",
+   "frames": [
+    "stand",
+    "fold",
+    "plank_high",
+    "fold",
+    "stand"
+   ],
+   "tempo": 0.9,
+   "cues": [
+    "Fold forward, hands to the floor",
+    "Walk hands out to a plank",
+    "Walk back and roll up tall"
+   ],
+   "mistake": "Letting the hips sag in the plank.",
+   "muscles": [
+    "hamstrings",
+    "shoulders",
+    "core"
+   ]
+  },
+  {
+   "id": "scap-push-up",
+   "name": "Scap Push-Up",
+   "category": "warmup",
+   "pattern": "push",
+   "impact": "low",
+   "frames": [
+    "plank_high",
+    "scap_low"
+   ],
+   "tempo": 0.9,
+   "cues": [
+    "High plank, arms straight",
+    "Let the chest sink between your shoulder blades",
+    "Push the floor away to round back up"
+   ],
+   "mistake": "Bending the elbows. Only the shoulder blades move.",
+   "muscles": [
+    "shoulder blades",
+    "serratus"
+   ]
+  },
+  {
+   "id": "high-knees",
+   "name": "High Knees",
+   "category": "hiit",
+   "pattern": "cardio",
+   "impact": "high",
+   "lowImpactAlt": "march-in-place",
+   "frames": [
+    "high_knees_a",
+    "high_knees_b"
+   ],
+   "tempo": 0.28,
+   "cues": [
+    "Knees to hip height",
+    "Pump the arms",
+    "Stay on the balls of your feet"
+   ],
+   "mistake": "Leaning back to lift the knees.",
+   "muscles": [
+    "hip flexors",
+    "legs",
+    "heart rate"
+   ]
+  },
+  {
+   "id": "butt-kicks",
+   "name": "Butt Kicks",
+   "category": "warmup",
+   "pattern": "cardio",
+   "impact": "high",
+   "lowImpactAlt": "march-in-place",
+   "frames": [
+    "butt_kick_a",
+    "butt_kick_b"
+   ],
+   "tempo": 0.3,
+   "cues": [
+    "Kick heels toward your glutes",
+    "Quick, light feet",
+    "Knees point down"
+   ],
+   "mistake": "Swinging the knees forward.",
+   "muscles": [
+    "hamstrings",
+    "quads",
+    "heart rate"
+   ]
+  },
+  {
+   "id": "wall-push-up",
+   "name": "Wall Push-Up",
+   "category": "strength",
+   "pattern": "push",
+   "impact": "low",
+   "harder": "incline-push-up",
+   "frames": [
+    "wall_pu_top",
+    "wall_pu_bot"
+   ],
+   "tempo": 1.0,
+   "props": [
+    {
+     "type": "wall",
+     "x": 168,
+     "w": 8
+    }
+   ],
+   "cues": [
+    "Hands on the wall at shoulder height",
+    "Body in one straight line",
+    "Bring your chest to the wall, then push away"
+   ],
+   "mistake": "Hips sticking out behind you.",
+   "muscles": [
+    "chest",
+    "shoulders",
+    "triceps"
+   ]
+  },
+  {
+   "id": "incline-push-up",
+   "name": "Incline Push-Up",
+   "category": "strength",
+   "pattern": "push",
+   "impact": "low",
+   "easier": "wall-push-up",
+   "harder": "knee-push-up",
+   "frames": [
+    "incline_top",
+    "incline_bot"
+   ],
+   "tempo": 1.0,
+   "props": [
+    {
+     "type": "box",
+     "x": 132,
+     "y": 110,
+     "w": 52,
+     "h": 38
+    }
+   ],
+   "cues": [
+    "Hands on a sturdy counter, bench or couch arm",
+    "Elbows about 45° from your body",
+    "Lower your chest to the edge"
+   ],
+   "mistake": "Flaring elbows straight out to the sides.",
+   "muscles": [
+    "chest",
+    "shoulders",
+    "triceps"
+   ]
+  },
+  {
+   "id": "knee-push-up",
+   "name": "Knee Push-Up",
+   "category": "strength",
+   "pattern": "push",
+   "impact": "low",
+   "easier": "incline-push-up",
+   "harder": "push-up",
+   "frames": [
+    "knee_pu_top",
+    "knee_pu_bot"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Knees down, hands under shoulders",
+    "Straight line from knees to head",
+    "Chest to the floor, then press up"
+   ],
+   "mistake": "Bending at the hips instead of keeping a straight line.",
+   "muscles": [
+    "chest",
+    "shoulders",
+    "triceps"
+   ]
+  },
+  {
+   "id": "push-up",
+   "name": "Push-Up",
+   "category": "strength",
+   "pattern": "push",
+   "impact": "low",
+   "easier": "knee-push-up",
+   "frames": [
+    "plank_high",
+    "plank_low"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Hands just wider than shoulders",
+    "Squeeze glutes, body like a plank",
+    "Lower until your chest nearly touches"
+   ],
+   "mistake": "Sagging hips or a half-range rep.",
+   "muscles": [
+    "chest",
+    "shoulders",
+    "triceps",
+    "core"
+   ]
+  },
+  {
+   "id": "pike-push-up",
+   "name": "Pike Push-Up",
+   "category": "strength",
+   "pattern": "push",
+   "impact": "low",
+   "easier": "push-up",
+   "frames": [
+    "pike_top",
+    "pike_bot"
+   ],
+   "tempo": 1.1,
+   "cues": [
+    "Hips high in an upside-down V",
+    "Lower the top of your head toward the floor",
+    "Press back up through the shoulders"
+   ],
+   "mistake": "Turning it into a regular push-up by dropping the hips.",
+   "muscles": [
+    "shoulders",
+    "triceps"
+   ]
+  },
+  {
+   "id": "box-squat",
+   "name": "Chair Squat",
+   "category": "strength",
+   "pattern": "squat",
+   "impact": "low",
+   "harder": "air-squat",
+   "frames": [
+    "stand_arms_fwd",
+    "squat_bottom"
+   ],
+   "tempo": 1.1,
+   "props": [
+    {
+     "type": "box",
+     "x": 52,
+     "y": 116,
+     "w": 40,
+     "h": 32
+    }
+   ],
+   "cues": [
+    "Sit back to a chair behind you",
+    "Tap it lightly, don't plop",
+    "Drive through your heels to stand"
+   ],
+   "mistake": "Knees collapsing inward.",
+   "muscles": [
+    "quads",
+    "glutes"
+   ]
+  },
+  {
+   "id": "air-squat",
+   "name": "Bodyweight Squat",
+   "category": "strength",
+   "pattern": "squat",
+   "impact": "low",
+   "easier": "box-squat",
+   "harder": "split-squat",
+   "frames": [
+    "stand_arms_fwd",
+    "squat_bottom"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Feet shoulder-width, toes slightly out",
+    "Hips back and down, chest proud",
+    "Thighs to parallel or as deep as is comfortable"
+   ],
+   "mistake": "Heels lifting off the floor.",
+   "muscles": [
+    "quads",
+    "glutes",
+    "core"
+   ]
+  },
+  {
+   "id": "split-squat",
+   "name": "Split Squat",
+   "category": "strength",
+   "pattern": "squat",
+   "impact": "low",
+   "perSide": true,
+   "easier": "air-squat",
+   "harder": "reverse-lunge",
+   "frames": [
+    "split_top",
+    "split_bot"
+   ],
+   "tempo": 1.1,
+   "cues": [
+    "Long stance, back heel up",
+    "Drop the back knee straight down",
+    "Front heel stays planted"
+   ],
+   "mistake": "Pushing off the back foot instead of the front leg.",
+   "muscles": [
+    "quads",
+    "glutes"
+   ]
+  },
+  {
+   "id": "reverse-lunge",
+   "name": "Reverse Lunge",
+   "category": "strength",
+   "pattern": "squat",
+   "impact": "low",
+   "perSide": true,
+   "easier": "split-squat",
+   "frames": [
+    "lunge_top",
+    "lunge_bot"
+   ],
+   "tempo": 1.1,
+   "cues": [
+    "Step one foot back",
+    "Lower the back knee toward the floor",
+    "Drive through the front heel to return"
+   ],
+   "mistake": "Front knee drifting way past the toes or caving in.",
+   "muscles": [
+    "quads",
+    "glutes",
+    "balance"
+   ]
+  },
+  {
+   "id": "calf-raise",
+   "name": "Calf Raise",
+   "category": "strength",
+   "pattern": "legs",
+   "impact": "low",
+   "frames": [
+    "stand",
+    "calf_up"
+   ],
+   "tempo": 0.9,
+   "cues": [
+    "Rise onto the balls of your feet",
+    "Pause at the top",
+    "Lower slowly"
+   ],
+   "mistake": "Bouncing. Control every rep.",
+   "muscles": [
+    "calves"
+   ]
+  },
+  {
+   "id": "glute-bridge",
+   "name": "Glute Bridge",
+   "category": "strength",
+   "pattern": "hinge",
+   "impact": "low",
+   "harder": "single-leg-glute-bridge",
+   "frames": [
+    "bridge_down",
+    "bridge_up"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Feet flat, knees bent",
+    "Squeeze glutes and lift hips",
+    "Straight line from knees to shoulders"
+   ],
+   "mistake": "Arching the lower back instead of using the glutes.",
+   "muscles": [
+    "glutes",
+    "hamstrings"
+   ]
+  },
+  {
+   "id": "single-leg-glute-bridge",
+   "name": "Single-Leg Glute Bridge",
+   "category": "strength",
+   "pattern": "hinge",
+   "impact": "low",
+   "perSide": true,
+   "easier": "glute-bridge",
+   "frames": [
+    "sl_bridge_down",
+    "sl_bridge_up"
+   ],
+   "tempo": 1.1,
+   "cues": [
+    "One foot down, other leg straight",
+    "Drive through the planted heel",
+    "Keep hips level"
+   ],
+   "mistake": "Hips tilting to one side.",
+   "muscles": [
+    "glutes",
+    "hamstrings"
+   ]
+  },
+  {
+   "id": "superman",
+   "name": "Superman",
+   "category": "strength",
+   "pattern": "pull",
+   "impact": "low",
+   "frames": [
+    "superman_down",
+    "superman_up"
+   ],
+   "tempo": 1.1,
+   "cues": [
+    "Lie face down, arms overhead",
+    "Lift arms, chest and legs together",
+    "Hold for a breath, then lower"
+   ],
+   "mistake": "Cranking the neck up. Eyes stay on the floor.",
+   "muscles": [
+    "lower back",
+    "glutes",
+    "upper back"
+   ]
+  },
+  {
+   "id": "dead-bug",
+   "name": "Dead Bug",
+   "category": "strength",
+   "pattern": "core",
+   "impact": "low",
+   "perSide": true,
+   "frames": [
+    "deadbug_a",
+    "deadbug_b"
+   ],
+   "tempo": 1.2,
+   "cues": [
+    "Lower back pressed into the floor",
+    "Extend opposite arm and leg slowly",
+    "Breathe out as you reach"
+   ],
+   "mistake": "Lower back peeling off the floor.",
+   "muscles": [
+    "deep core"
+   ]
+  },
+  {
+   "id": "plank",
+   "name": "Forearm Plank",
+   "category": "strength",
+   "pattern": "core",
+   "impact": "low",
+   "mode": "time",
+   "frames": [
+    "forearm_plank"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Elbows under shoulders",
+    "Squeeze glutes and brace your abs",
+    "Breathe steadily"
+   ],
+   "mistake": "Hips too high or sagging.",
+   "muscles": [
+    "core",
+    "shoulders"
+   ]
+  },
+  {
+   "id": "bird-dog",
+   "name": "Bird Dog",
+   "category": "strength",
+   "pattern": "core",
+   "impact": "low",
+   "perSide": true,
+   "frames": [
+    "bird_a",
+    "bird_b"
+   ],
+   "tempo": 1.2,
+   "cues": [
+    "Hands under shoulders, knees under hips",
+    "Reach opposite arm and leg long",
+    "Keep your back flat like a table"
+   ],
+   "mistake": "Twisting the hips open.",
+   "muscles": [
+    "core",
+    "glutes",
+    "lower back"
+   ]
+  },
+  {
+   "id": "wall-sit",
+   "name": "Wall Sit",
+   "category": "strength",
+   "pattern": "squat",
+   "impact": "low",
+   "mode": "time",
+   "frames": [
+    "wall_sit"
+   ],
+   "tempo": 1.0,
+   "props": [
+    {
+     "type": "wall",
+     "x": 50,
+     "w": 8
+    }
+   ],
+   "cues": [
+    "Back flat on the wall",
+    "Thighs parallel to the floor",
+    "Knees over ankles"
+   ],
+   "mistake": "Hands pushing on the thighs.",
+   "muscles": [
+    "quads",
+    "glutes"
+   ]
+  },
+  {
+   "id": "mountain-climbers",
+   "name": "Mountain Climbers",
+   "category": "hiit",
+   "pattern": "core",
+   "impact": "low",
+   "frames": [
+    "mc_a",
+    "mc_b"
+   ],
+   "tempo": 0.3,
+   "cues": [
+    "High plank, hands under shoulders",
+    "Drive knees toward your chest",
+    "Hips stay level"
+   ],
+   "mistake": "Bouncing the hips up high.",
+   "muscles": [
+    "core",
+    "shoulders",
+    "heart rate"
+   ]
+  },
+  {
+   "id": "squat-jump",
+   "name": "Squat Jump",
+   "category": "hiit",
+   "pattern": "plyo",
+   "impact": "high",
+   "lowImpactAlt": "air-squat",
+   "easier": "air-squat",
+   "frames": [
+    "squat_bottom",
+    "jump_air"
+   ],
+   "tempo": 0.5,
+   "cues": [
+    "Squat down, swing the arms",
+    "Explode up",
+    "Land softly back into the squat"
+   ],
+   "mistake": "Landing with straight legs.",
+   "muscles": [
+    "quads",
+    "glutes",
+    "power"
+   ]
+  },
+  {
+   "id": "burpee",
+   "name": "Burpee",
+   "category": "hiit",
+   "pattern": "plyo",
+   "impact": "high",
+   "lowImpactAlt": "step-back-burpee",
+   "easier": "step-back-burpee",
+   "frames": [
+    "stand",
+    "squat_low",
+    "plank_high",
+    "squat_low",
+    "jump_air"
+   ],
+   "tempo": 0.45,
+   "cues": [
+    "Squat, hands down",
+    "Jump feet back to a plank",
+    "Jump feet in and leap up"
+   ],
+   "mistake": "Sagging hips in the plank.",
+   "muscles": [
+    "full body",
+    "heart rate"
+   ]
+  },
+  {
+   "id": "step-back-burpee",
+   "name": "Step-Back Burpee",
+   "category": "hiit",
+   "pattern": "plyo",
+   "impact": "low",
+   "harder": "burpee",
+   "frames": [
+    "stand",
+    "squat_low",
+    "plank_high",
+    "squat_low",
+    "stand"
+   ],
+   "tempo": 0.7,
+   "cues": [
+    "Squat, hands down",
+    "Step one foot back, then the other",
+    "Step in and stand tall"
+   ],
+   "mistake": "Rushing and losing the plank position.",
+   "muscles": [
+    "full body",
+    "heart rate"
+   ]
+  },
+  {
+   "id": "childs-pose",
+   "name": "Child's Pose",
+   "category": "yoga",
+   "pattern": "yoga",
+   "impact": "low",
+   "mode": "time",
+   "frames": [
+    "child"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Knees wide, big toes together",
+    "Sit hips back toward heels",
+    "Reach arms long and breathe into your back"
+   ],
+   "mistake": "Holding your breath.",
+   "muscles": [
+    "lower back",
+    "hips",
+    "lats"
+   ]
+  },
+  {
+   "id": "seated-hamstring-stretch",
+   "name": "Seated Hamstring Stretch",
+   "category": "stretch",
+   "pattern": "flexibility",
+   "impact": "low",
+   "mode": "time",
+   "frames": [
+    "seated_ham"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Legs straight out in front",
+    "Hinge forward from the hips",
+    "Reach toward shins or toes"
+   ],
+   "mistake": "Rounding hard through the upper back.",
+   "muscles": [
+    "hamstrings",
+    "calves"
+   ]
+  },
+  {
+   "id": "standing-quad-stretch",
+   "name": "Standing Quad Stretch",
+   "category": "stretch",
+   "pattern": "flexibility",
+   "impact": "low",
+   "mode": "time",
+   "perSide": true,
+   "frames": [
+    "quad_stretch"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Hold a wall for balance",
+    "Pull your heel to your glute",
+    "Knees side by side"
+   ],
+   "mistake": "Knee drifting out to the side.",
+   "muscles": [
+    "quads",
+    "hip flexors"
+   ]
+  },
+  {
+   "id": "kneeling-hip-flexor-stretch",
+   "name": "Kneeling Hip Flexor Stretch",
+   "category": "stretch",
+   "pattern": "flexibility",
+   "impact": "low",
+   "mode": "time",
+   "perSide": true,
+   "frames": [
+    "hip_flexor"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Half-kneel, back knee on a soft surface",
+    "Tuck your tailbone, squeeze the back glute",
+    "Shift hips forward gently"
+   ],
+   "mistake": "Arching the lower back to fake the stretch.",
+   "muscles": [
+    "hip flexors",
+    "quads"
+   ]
+  },
+  {
+   "id": "knees-to-chest",
+   "name": "Knees to Chest",
+   "category": "stretch",
+   "pattern": "flexibility",
+   "impact": "low",
+   "mode": "time",
+   "frames": [
+    "knees_chest"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Lie on your back",
+    "Hug both knees in",
+    "Rock gently side to side if it feels good"
+   ],
+   "mistake": "Lifting your head off the floor.",
+   "muscles": [
+    "lower back",
+    "glutes"
+   ]
+  },
+  {
+   "id": "chest-stretch",
+   "name": "Doorway Chest Stretch",
+   "category": "stretch",
+   "pattern": "flexibility",
+   "impact": "low",
+   "mode": "time",
+   "perSide": true,
+   "frames": [
+    "chest_str"
+   ],
+   "tempo": 1.0,
+   "props": [
+    {
+     "type": "wall",
+     "x": 44,
+     "w": 8
+    }
+   ],
+   "cues": [
+    "Forearm on a wall or door frame behind you",
+    "Turn your body away",
+    "Feel it across the chest, not the shoulder joint"
+   ],
+   "mistake": "Forcing it into pain.",
+   "muscles": [
+    "chest",
+    "front shoulder"
+   ]
+  },
+  {
+   "id": "cross-body-shoulder-stretch",
+   "name": "Cross-Body Shoulder Stretch",
+   "category": "stretch",
+   "pattern": "flexibility",
+   "impact": "low",
+   "mode": "time",
+   "perSide": true,
+   "frames": [
+    "cross_body"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Bring one arm across your chest",
+    "Hug it in with the other arm above the elbow",
+    "Keep the shoulder down"
+   ],
+   "mistake": "Pulling on the elbow joint itself.",
+   "muscles": [
+    "rear shoulder",
+    "upper back"
+   ]
+  },
+  {
+   "id": "overhead-triceps-stretch",
+   "name": "Overhead Triceps Stretch",
+   "category": "stretch",
+   "pattern": "flexibility",
+   "impact": "low",
+   "mode": "time",
+   "perSide": true,
+   "frames": [
+    "triceps_oh"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Reach one hand down your back",
+    "Gently press the elbow with the other hand",
+    "Stand tall, ribs down"
+   ],
+   "mistake": "Arching your back.",
+   "muscles": [
+    "triceps",
+    "lats"
+   ]
+  },
+  {
+   "id": "cobra",
+   "name": "Cobra",
+   "category": "yoga",
+   "pattern": "yoga",
+   "impact": "low",
+   "mode": "time",
+   "frames": [
+    "cobra"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Lie face down, hands under shoulders",
+    "Press up gently, hips stay down",
+    "Shoulders away from ears"
+   ],
+   "mistake": "Locking the elbows and jamming the lower back.",
+   "muscles": [
+    "abs",
+    "hip flexors",
+    "spine"
+   ]
+  },
+  {
+   "id": "downward-dog",
+   "name": "Downward Dog",
+   "category": "yoga",
+   "pattern": "yoga",
+   "impact": "low",
+   "mode": "time",
+   "frames": [
+    "down_dog"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Hands and feet down, hips high",
+    "Press the floor away, long spine",
+    "Bend knees as much as you need"
+   ],
+   "mistake": "Rounding the back to force the heels down.",
+   "muscles": [
+    "hamstrings",
+    "calves",
+    "shoulders"
+   ]
+  },
+  {
+   "id": "box-breathing",
+   "name": "Box Breathing",
+   "category": "stretch",
+   "pattern": "breath",
+   "impact": "low",
+   "mode": "time",
+   "frames": [
+    "seated"
+   ],
+   "tempo": 1.0,
+   "cues": [
+    "Breathe in for 4",
+    "Hold for 4",
+    "Breathe out for 4, hold for 4"
+   ],
+   "mistake": "Rushing the count.",
+   "muscles": [
+    "nervous system"
+   ]
+  },
+  {
+   "id": "decline-push-up",
+   "name": "Decline Push-Up",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Feet up on a step, couch or chair",
+    "Hands just wider than shoulders",
+    "Lower with control, body stays straight"
+   ],
+   "mistake": "Letting the hips pike up.",
+   "muscles": [
+    "upper chest",
+    "shoulders",
+    "triceps"
+   ],
+   "pattern": "push",
+   "easier": "push-up",
+   "harder": "diamond-push-up",
+   "position": "prone"
+  },
+  {
+   "id": "diamond-push-up",
+   "name": "Diamond Push-Up",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hands close together under your chest",
+    "Elbows track back along your sides",
+    "Full range, chest to hands"
+   ],
+   "mistake": "Elbows flaring wide.",
+   "muscles": [
+    "triceps",
+    "chest"
+   ],
+   "pattern": "push",
+   "easier": "decline-push-up",
+   "harder": "archer-push-up",
+   "position": "prone"
+  },
+  {
+   "id": "archer-push-up",
+   "name": "Archer Push-Up",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Very wide hands",
+    "Shift your weight over one arm as you lower",
+    "The other arm stays nearly straight"
+   ],
+   "mistake": "Twisting the hips.",
+   "muscles": [
+    "chest",
+    "shoulders",
+    "triceps"
+   ],
+   "pattern": "push",
+   "easier": "diamond-push-up",
+   "perSide": true,
+   "position": "prone"
+  },
+  {
+   "id": "elevated-pike-push-up",
+   "name": "Elevated Pike Push-Up",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Feet on a chair, hips stacked high",
+    "Lower the head between your hands",
+    "Press straight back up"
+   ],
+   "mistake": "Dropping the hips toward a regular push-up.",
+   "muscles": [
+    "shoulders",
+    "triceps"
+   ],
+   "pattern": "push",
+   "easier": "pike-push-up",
+   "harder": "wall-handstand-hold",
+   "position": "inverted"
+  },
+  {
+   "id": "wall-handstand-hold",
+   "name": "Wall Handstand Hold",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Walk your feet up the wall, chest facing it",
+    "Arms locked, push the floor away",
+    "Squeeze glutes, ribs in"
+   ],
+   "mistake": "Banana back. Keep the body in a line.",
+   "muscles": [
+    "shoulders",
+    "core"
+   ],
+   "pattern": "push",
+   "mode": "time",
+   "easier": "elevated-pike-push-up",
+   "position": "inverted"
+  },
+  {
+   "id": "bulgarian-split-squat",
+   "name": "Bulgarian Split Squat",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Back foot on a couch or chair",
+    "Drop straight down on the front leg",
+    "Front heel stays planted"
+   ],
+   "mistake": "Standing too close to the bench.",
+   "muscles": [
+    "quads",
+    "glutes"
+   ],
+   "pattern": "squat",
+   "perSide": true,
+   "easier": "reverse-lunge",
+   "harder": "shrimp-squat"
+  },
+  {
+   "id": "shrimp-squat",
+   "name": "Shrimp Squat",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hold one foot behind you",
+    "Lower the back knee to the floor",
+    "Stand up without pushing off the back foot"
+   ],
+   "mistake": "Rushing. Go slow and control it.",
+   "muscles": [
+    "quads",
+    "glutes",
+    "balance"
+   ],
+   "pattern": "squat",
+   "perSide": true,
+   "easier": "bulgarian-split-squat",
+   "harder": "assisted-pistol-squat"
+  },
+  {
+   "id": "assisted-pistol-squat",
+   "name": "Assisted Pistol Squat",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hold a door frame or post",
+    "One leg straight out in front",
+    "Sit down on the other leg as low as you can control"
+   ],
+   "mistake": "Pulling too hard with the arms.",
+   "muscles": [
+    "quads",
+    "glutes",
+    "balance"
+   ],
+   "pattern": "squat",
+   "perSide": true,
+   "easier": "shrimp-squat",
+   "harder": "pistol-squat"
+  },
+  {
+   "id": "pistol-squat",
+   "name": "Pistol Squat",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Arms forward for balance",
+    "Free leg straight out",
+    "Full depth, then stand tall"
+   ],
+   "mistake": "Heel lifting off the floor.",
+   "muscles": [
+    "quads",
+    "glutes",
+    "balance"
+   ],
+   "pattern": "squat",
+   "perSide": true,
+   "easier": "assisted-pistol-squat"
+  },
+  {
+   "id": "elevated-hip-thrust",
+   "name": "Elevated Hip Thrust",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Upper back on the couch edge",
+    "Drive hips up to a flat tabletop",
+    "Chin tucked, ribs down"
+   ],
+   "mistake": "Arching the lower back at the top.",
+   "muscles": [
+    "glutes",
+    "hamstrings"
+   ],
+   "pattern": "hinge",
+   "easier": "single-leg-glute-bridge",
+   "harder": "single-leg-rdl"
+  },
+  {
+   "id": "single-leg-rdl",
+   "name": "Single-Leg Romanian Deadlift",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Soft knee on the standing leg",
+    "Hinge forward as the back leg lifts",
+    "Hips stay square to the floor"
+   ],
+   "mistake": "Rounding the back to reach lower.",
+   "muscles": [
+    "hamstrings",
+    "glutes",
+    "balance"
+   ],
+   "pattern": "hinge",
+   "perSide": true,
+   "easier": "elevated-hip-thrust"
+  },
+  {
+   "id": "sliding-hamstring-curl",
+   "name": "Sliding Hamstring Curl",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Lie on your back, heels on a towel (smooth floor)",
+    "Lift hips into a bridge",
+    "Slide heels out and back in"
+   ],
+   "mistake": "Hips dropping as you slide.",
+   "muscles": [
+    "hamstrings",
+    "glutes"
+   ],
+   "pattern": "hinge",
+   "position": "supine"
+  },
+  {
+   "id": "prone-ytw",
+   "name": "Prone Y-T-W",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Lie face down, forehead on a towel",
+    "Lift arms into a Y, then T, then W",
+    "Squeeze shoulder blades together"
+   ],
+   "mistake": "Shrugging toward the ears.",
+   "muscles": [
+    "upper back",
+    "rear shoulders"
+   ],
+   "pattern": "pull",
+   "position": "prone"
+  },
+  {
+   "id": "doorframe-row",
+   "name": "Doorframe Row",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Grip both sides of a sturdy door frame",
+    "Lean back with arms straight",
+    "Pull your chest to the frame"
+   ],
+   "mistake": "Using hips instead of arms and back.",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "pattern": "pull",
+   "harder": "towel-door-row"
+  },
+  {
+   "id": "towel-door-row",
+   "name": "Towel Door Row",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Loop a towel around the handles of a closed, locked door",
+    "Lean back, walk feet closer to make it harder",
+    "Row elbows back past your ribs"
+   ],
+   "mistake": "Using a door that opens toward you.",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "pattern": "pull",
+   "easier": "doorframe-row",
+   "harder": "table-row"
+  },
+  {
+   "id": "table-row",
+   "name": "Table Inverted Row",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Lie under a very sturdy table, grip the edge",
+    "Body straight, heels on the floor",
+    "Pull your chest up to the table"
+   ],
+   "mistake": "Using a wobbly table. Test it first!",
+   "muscles": [
+    "back",
+    "biceps",
+    "core"
+   ],
+   "pattern": "pull",
+   "easier": "towel-door-row",
+   "position": "supine"
+  },
+  {
+   "id": "hollow-hold",
+   "name": "Hollow Hold",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Lower back glued to the floor",
+    "Arms overhead, legs long and low",
+    "Bend the knees to make it easier"
+   ],
+   "mistake": "Lower back arching off the floor.",
+   "muscles": [
+    "deep core"
+   ],
+   "pattern": "core",
+   "mode": "time",
+   "harder": "v-up",
+   "position": "supine"
+  },
+  {
+   "id": "side-plank",
+   "name": "Side Plank",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Elbow under shoulder",
+    "Hips lifted in a straight line",
+    "Knees down to make it easier"
+   ],
+   "mistake": "Hips sagging toward the floor.",
+   "muscles": [
+    "obliques",
+    "shoulders"
+   ],
+   "pattern": "core",
+   "mode": "time",
+   "perSide": true,
+   "position": "sidelying"
+  },
+  {
+   "id": "v-up",
+   "name": "V-Up",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Start long on your back",
+    "Lift arms and legs to meet in the middle",
+    "Lower slowly"
+   ],
+   "mistake": "Using momentum and slamming down.",
+   "muscles": [
+    "abs",
+    "hip flexors"
+   ],
+   "pattern": "core",
+   "easier": "hollow-hold",
+   "position": "supine"
+  },
+  {
+   "id": "tuck-l-sit",
+   "name": "Tuck L-Sit",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hands on two sturdy chairs or the floor",
+    "Push down and lift your hips",
+    "Knees tucked to chest"
+   ],
+   "mistake": "Shoulders shrugged up.",
+   "muscles": [
+    "core",
+    "triceps",
+    "shoulders"
+   ],
+   "pattern": "core",
+   "mode": "time",
+   "position": "seated"
+  },
+  {
+   "id": "crow-pose",
+   "name": "Crow Pose",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hands flat, knees on the backs of your arms",
+    "Lean forward until the feet float",
+    "Pillow in front of your face!"
+   ],
+   "mistake": "Looking down at your hands. Look forward.",
+   "muscles": [
+    "core",
+    "shoulders",
+    "balance"
+   ],
+   "pattern": "skill",
+   "mode": "time"
+  },
+  {
+   "id": "plank-shoulder-taps",
+   "name": "Plank Shoulder Taps",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "High plank, feet wide",
+    "Tap the opposite shoulder",
+    "Hips stay still"
+   ],
+   "mistake": "Rocking the hips side to side.",
+   "muscles": [
+    "core",
+    "shoulders"
+   ],
+   "pattern": "core",
+   "position": "prone"
+  },
+  {
+   "id": "goblet-squat",
+   "name": "Goblet Squat",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hold a dumbbell or kettlebell at your chest",
+    "Sit down between your heels",
+    "Elbows inside the knees at the bottom"
+   ],
+   "mistake": "Chest collapsing forward.",
+   "muscles": [
+    "quads",
+    "glutes",
+    "core"
+   ],
+   "pattern": "squat",
+   "equipment": [
+    "db",
+    "kb"
+   ],
+   "easier": "air-squat"
+  },
+  {
+   "id": "db-romanian-deadlift",
+   "name": "Dumbbell Romanian Deadlift",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Weights in front of the thighs",
+    "Push hips back, soft knees",
+    "Stop when the hamstrings are stretched, then stand"
+   ],
+   "mistake": "Rounding the back.",
+   "muscles": [
+    "hamstrings",
+    "glutes",
+    "back"
+   ],
+   "pattern": "hinge",
+   "equipment": [
+    "db",
+    "kb"
+   ]
+  },
+  {
+   "id": "kb-swing",
+   "name": "Kettlebell Swing",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hike the bell back between your legs",
+    "Snap the hips forward to float it to chest height",
+    "Arms are just ropes"
+   ],
+   "mistake": "Squatting the swing or lifting with the arms.",
+   "muscles": [
+    "glutes",
+    "hamstrings",
+    "heart rate"
+   ],
+   "pattern": "hinge",
+   "equipment": [
+    "kb"
+   ]
+  },
+  {
+   "id": "db-floor-press",
+   "name": "Dumbbell Floor Press",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Lie on your back, knees bent",
+    "Press the weights up over your chest",
+    "Lower until the elbows touch the floor"
+   ],
+   "mistake": "Bouncing the elbows.",
+   "muscles": [
+    "chest",
+    "triceps"
+   ],
+   "pattern": "push",
+   "equipment": [
+    "db"
+   ],
+   "position": "supine"
+  },
+  {
+   "id": "db-overhead-press",
+   "name": "Dumbbell Overhead Press",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Weights at the shoulders",
+    "Press straight up, biceps by the ears",
+    "Ribs down, glutes tight"
+   ],
+   "mistake": "Leaning back to finish the rep.",
+   "muscles": [
+    "shoulders",
+    "triceps"
+   ],
+   "pattern": "push",
+   "equipment": [
+    "db",
+    "kb"
+   ]
+  },
+  {
+   "id": "one-arm-db-row",
+   "name": "One-Arm Dumbbell Row",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hand and knee on a couch or bench",
+    "Pull the weight to your hip",
+    "Pause, then lower slowly"
+   ],
+   "mistake": "Twisting the torso to lift.",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "pattern": "pull",
+   "perSide": true,
+   "equipment": [
+    "db",
+    "kb"
+   ]
+  },
+  {
+   "id": "gorilla-row",
+   "name": "Gorilla Row",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Wide stance, hinge forward, weights on the floor",
+    "Row one weight while the other stays down",
+    "Alternate sides"
+   ],
+   "mistake": "Standing up as you row.",
+   "muscles": [
+    "back",
+    "biceps",
+    "core"
+   ],
+   "pattern": "pull",
+   "equipment": [
+    "db",
+    "kb"
+   ]
+  },
+  {
+   "id": "db-biceps-curl",
+   "name": "Dumbbell Biceps Curl",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Elbows pinned to your sides",
+    "Curl up, squeeze at the top",
+    "Lower slowly. No swinging"
+   ],
+   "mistake": "Swinging the body to lift.",
+   "muscles": [
+    "biceps",
+    "forearms"
+   ],
+   "pattern": "pull",
+   "equipment": [
+    "db"
+   ]
+  },
+  {
+   "id": "db-reverse-lunge",
+   "name": "Dumbbell Reverse Lunge",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Weights at your sides",
+    "Step back, back knee toward the floor",
+    "Drive through the front heel"
+   ],
+   "mistake": "Front knee caving in.",
+   "muscles": [
+    "quads",
+    "glutes"
+   ],
+   "pattern": "squat",
+   "perSide": true,
+   "equipment": [
+    "db",
+    "kb"
+   ],
+   "easier": "reverse-lunge"
+  },
+  {
+   "id": "farmer-carry",
+   "name": "Farmer Carry",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Heavy weights at your sides",
+    "Stand tall, shoulders back",
+    "Walk with short, controlled steps"
+   ],
+   "mistake": "Leaning to one side.",
+   "muscles": [
+    "grip",
+    "core",
+    "traps"
+   ],
+   "pattern": "carry",
+   "mode": "time",
+   "equipment": [
+    "db",
+    "kb"
+   ]
+  },
+  {
+   "id": "turkish-get-up",
+   "name": "Turkish Get-Up",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Weight locked out over your shoulder, eyes on it",
+    "Roll to elbow, hand, hips up, sweep the leg, stand",
+    "Reverse it slowly"
+   ],
+   "mistake": "Rushing. Every step is a pause.",
+   "muscles": [
+    "shoulders",
+    "core",
+    "full body"
+   ],
+   "pattern": "full",
+   "perSide": true,
+   "equipment": [
+    "kb",
+    "db"
+   ]
+  },
+  {
+   "id": "db-clean-and-press",
+   "name": "Dumbbell Clean & Press",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hinge and pull the weights up to the shoulders",
+    "Dip the knees and press overhead",
+    "Lower with control"
+   ],
+   "mistake": "Curling the weights up instead of using the hips.",
+   "muscles": [
+    "full body",
+    "shoulders"
+   ],
+   "pattern": "full",
+   "equipment": [
+    "db"
+   ]
+  },
+  {
+   "id": "dead-hang",
+   "name": "Dead Hang",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Overhand grip, arms straight",
+    "Shoulders gently pulled down",
+    "Breathe and hold"
+   ],
+   "mistake": "Kicking or swinging.",
+   "muscles": [
+    "grip",
+    "shoulders",
+    "lats"
+   ],
+   "pattern": "pull",
+   "mode": "time",
+   "equipment": [
+    "bar"
+   ],
+   "harder": "scapular-pull-up",
+   "position": "hanging"
+  },
+  {
+   "id": "scapular-pull-up",
+   "name": "Scapular Pull-Up",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hang with straight arms",
+    "Pull shoulder blades down and back to lift a little",
+    "Lower slowly"
+   ],
+   "mistake": "Bending the elbows.",
+   "muscles": [
+    "lats",
+    "shoulder blades"
+   ],
+   "pattern": "pull",
+   "equipment": [
+    "bar"
+   ],
+   "easier": "dead-hang",
+   "harder": "negative-pull-up",
+   "position": "hanging"
+  },
+  {
+   "id": "negative-pull-up",
+   "name": "Negative Pull-Up",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Jump or step up so your chin is over the bar",
+    "Lower yourself over 5 seconds",
+    "Reset and repeat"
+   ],
+   "mistake": "Dropping fast at the bottom.",
+   "muscles": [
+    "lats",
+    "biceps"
+   ],
+   "pattern": "pull",
+   "equipment": [
+    "bar"
+   ],
+   "easier": "scapular-pull-up",
+   "harder": "pull-up",
+   "position": "hanging"
+  },
+  {
+   "id": "pull-up",
+   "name": "Pull-Up",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Overhand grip, just wider than shoulders",
+    "Pull your chest toward the bar",
+    "Full hang at the bottom"
+   ],
+   "mistake": "Half reps and kipping.",
+   "muscles": [
+    "lats",
+    "biceps",
+    "core"
+   ],
+   "pattern": "pull",
+   "equipment": [
+    "bar"
+   ],
+   "easier": "negative-pull-up",
+   "position": "hanging"
+  },
+  {
+   "id": "chin-up",
+   "name": "Chin-Up",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Underhand grip, shoulder width",
+    "Chin over the bar",
+    "Lower all the way down"
+   ],
+   "mistake": "Craning the neck to reach the bar.",
+   "muscles": [
+    "biceps",
+    "lats"
+   ],
+   "pattern": "pull",
+   "equipment": [
+    "bar"
+   ],
+   "easier": "negative-pull-up",
+   "position": "hanging"
+  },
+  {
+   "id": "hanging-knee-raise",
+   "name": "Hanging Knee Raise",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hang still",
+    "Curl knees up toward your chest",
+    "Lower without swinging"
+   ],
+   "mistake": "Swinging for momentum.",
+   "muscles": [
+    "abs",
+    "grip"
+   ],
+   "pattern": "core",
+   "equipment": [
+    "bar"
+   ],
+   "harder": "hanging-leg-raise",
+   "position": "hanging"
+  },
+  {
+   "id": "hanging-leg-raise",
+   "name": "Hanging Leg Raise",
+   "category": "strength",
+   "impact": "low",
+   "cues": [
+    "Hang still, legs straight",
+    "Lift legs to hip height or higher",
+    "Control the way down"
+   ],
+   "mistake": "Swinging.",
+   "muscles": [
+    "abs",
+    "hip flexors",
+    "grip"
+   ],
+   "pattern": "core",
+   "equipment": [
+    "bar"
+   ],
+   "easier": "hanging-knee-raise",
+   "position": "hanging"
+  },
+  {
+   "id": "split-jump",
+   "name": "Split Jump",
+   "category": "hiit",
+   "impact": "high",
+   "cues": [
+    "Start in a lunge",
+    "Jump and switch legs in the air",
+    "Land softly back in a lunge"
+   ],
+   "mistake": "Landing with a stiff front knee.",
+   "muscles": [
+    "legs",
+    "power",
+    "heart rate"
+   ],
+   "pattern": "plyo",
+   "lowImpactAlt": "reverse-lunge"
+  },
+  {
+   "id": "tuck-jump",
+   "name": "Tuck Jump",
+   "category": "hiit",
+   "impact": "high",
+   "cues": [
+    "Jump high",
+    "Pull knees to chest",
+    "Land softly and go again"
+   ],
+   "mistake": "Landing loud and stiff.",
+   "muscles": [
+    "legs",
+    "power",
+    "heart rate"
+   ],
+   "pattern": "plyo",
+   "lowImpactAlt": "air-squat"
+  },
+  {
+   "id": "broad-jump",
+   "name": "Broad Jump",
+   "category": "hiit",
+   "impact": "high",
+   "cues": [
+    "Swing arms back, hinge",
+    "Jump forward as far as you can",
+    "Stick the landing, walk back"
+   ],
+   "mistake": "Knees caving on landing.",
+   "muscles": [
+    "legs",
+    "power"
+   ],
+   "pattern": "plyo",
+   "lowImpactAlt": "air-squat"
+  },
+  {
+   "id": "skaters",
+   "name": "Skaters",
+   "category": "hiit",
+   "impact": "high",
+   "cues": [
+    "Bound sideways onto one foot",
+    "Back foot sweeps behind",
+    "Touch down lightly and bound back"
+   ],
+   "mistake": "Landing with a straight knee.",
+   "muscles": [
+    "legs",
+    "glutes",
+    "heart rate"
+   ],
+   "pattern": "plyo",
+   "lowImpactAlt": "step-jacks"
+  },
+  {
+   "id": "plank-jacks",
+   "name": "Plank Jacks",
+   "category": "hiit",
+   "impact": "high",
+   "cues": [
+    "High plank",
+    "Jump feet wide and back together",
+    "Hips stay level"
+   ],
+   "mistake": "Hips bouncing up and down.",
+   "muscles": [
+    "core",
+    "shoulders",
+    "heart rate"
+   ],
+   "pattern": "core",
+   "lowImpactAlt": "plank-shoulder-taps",
+   "position": "prone"
+  },
+  {
+   "id": "star-jumps",
+   "name": "Star Jumps",
+   "category": "hiit",
+   "impact": "high",
+   "cues": [
+    "Squat down a little",
+    "Explode up into a star shape",
+    "Land softly"
+   ],
+   "mistake": "Landing stiff-legged.",
+   "muscles": [
+    "full body",
+    "heart rate"
+   ],
+   "pattern": "plyo",
+   "lowImpactAlt": "step-jacks"
+  },
+  {
+   "id": "bear-crawl",
+   "name": "Bear Crawl",
+   "category": "hiit",
+   "impact": "low",
+   "cues": [
+    "Hands and feet, knees hovering an inch up",
+    "Move opposite hand and foot together",
+    "Keep your back flat"
+   ],
+   "mistake": "Hips high in the air.",
+   "muscles": [
+    "shoulders",
+    "core",
+    "quads"
+   ],
+   "pattern": "full",
+   "mode": "time"
+  },
+  {
+   "id": "mountain-pose",
+   "name": "Mountain Pose",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Feet hip-width, weight even",
+    "Lengthen through the crown of the head",
+    "Soft breath through the nose"
+   ],
+   "mistake": "Locking the knees.",
+   "muscles": [
+    "posture",
+    "balance"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "frames": [
+    "stand"
+   ],
+   "tempo": 1
+  },
+  {
+   "id": "tree-pose",
+   "name": "Tree Pose",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Foot on the inner calf or thigh (not the knee)",
+    "Hands at heart or overhead",
+    "Fix your gaze on one spot"
+   ],
+   "mistake": "Pressing the foot into the side of the knee.",
+   "muscles": [
+    "balance",
+    "hips",
+    "ankles"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "perSide": true,
+   "frames": [
+    "tree"
+   ],
+   "tempo": 1
+  },
+  {
+   "id": "warrior-1",
+   "name": "Warrior I",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Long stance, back heel down at an angle",
+    "Bend the front knee over the ankle",
+    "Arms reach up, hips face forward"
+   ],
+   "mistake": "Front knee drifting inward.",
+   "muscles": [
+    "legs",
+    "hip flexors",
+    "shoulders"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "perSide": true
+  },
+  {
+   "id": "warrior-2",
+   "name": "Warrior II",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Wide stance, front knee over the ankle",
+    "Arms out long, shoulders relaxed",
+    "Gaze over the front hand"
+   ],
+   "mistake": "Leaning the torso over the front leg.",
+   "muscles": [
+    "legs",
+    "hips",
+    "endurance"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "perSide": true,
+   "frames": [
+    "warrior2"
+   ],
+   "tempo": 1
+  },
+  {
+   "id": "triangle-pose",
+   "name": "Triangle Pose",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Wide stance, front leg straight",
+    "Reach forward, then tip the hand down to shin or block",
+    "Top arm reaches to the sky"
+   ],
+   "mistake": "Collapsing the side body.",
+   "muscles": [
+    "hamstrings",
+    "side body",
+    "hips"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "perSide": true
+  },
+  {
+   "id": "chair-pose",
+   "name": "Chair Pose",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Sit back like there's a chair",
+    "Arms reach up alongside the ears",
+    "Weight in the heels"
+   ],
+   "mistake": "Knees shooting past the toes with heels lifting.",
+   "muscles": [
+    "quads",
+    "glutes",
+    "shoulders"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "frames": [
+    "chair_pose"
+   ],
+   "tempo": 1
+  },
+  {
+   "id": "low-lunge",
+   "name": "Low Lunge",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Back knee down, front knee over ankle",
+    "Sink the hips forward",
+    "Lift the chest, arms up if it feels good"
+   ],
+   "mistake": "Front knee way past the toes.",
+   "muscles": [
+    "hip flexors",
+    "quads"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "perSide": true,
+   "frames": [
+    "hip_flexor"
+   ],
+   "tempo": 1,
+   "position": "kneeling"
+  },
+  {
+   "id": "pigeon-pose",
+   "name": "Pigeon Pose",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Front shin angled across the mat",
+    "Back leg long behind you",
+    "Fold forward if it feels good"
+   ],
+   "mistake": "Forcing it. Prop the hip on a pillow.",
+   "muscles": [
+    "glutes",
+    "hips"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "perSide": true
+  },
+  {
+   "id": "cat-cow",
+   "name": "Cat-Cow",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Hands and knees",
+    "Breathe in: drop the belly, lift the chest (cow)",
+    "Breathe out: round the spine (cat)"
+   ],
+   "mistake": "Moving only the neck. Use the whole spine.",
+   "muscles": [
+    "spine",
+    "core"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "position": "quadruped"
+  },
+  {
+   "id": "boat-pose",
+   "name": "Boat Pose",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Sit tall, lean back slightly",
+    "Lift the shins parallel to the floor",
+    "Arms forward. Straighten legs to make it harder"
+   ],
+   "mistake": "Rounding the lower back.",
+   "muscles": [
+    "core",
+    "hip flexors"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "position": "seated"
+  },
+  {
+   "id": "thread-the-needle",
+   "name": "Thread the Needle",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "From hands and knees, slide one arm under the other",
+    "Rest shoulder and temple down",
+    "Breathe into the upper back"
+   ],
+   "mistake": "Shifting the hips off center.",
+   "muscles": [
+    "upper back",
+    "shoulders"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "perSide": true,
+   "position": "quadruped"
+  },
+  {
+   "id": "supine-twist",
+   "name": "Supine Twist",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Lie on your back, hug one knee in",
+    "Let it fall across your body",
+    "Arms wide, both shoulders down"
+   ],
+   "mistake": "Forcing the knee to the floor.",
+   "muscles": [
+    "spine",
+    "glutes"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "perSide": true,
+   "position": "supine"
+  },
+  {
+   "id": "bridge-pose",
+   "name": "Bridge Pose",
+   "category": "yoga",
+   "impact": "low",
+   "cues": [
+    "Feet under knees, arms by your sides",
+    "Lift hips and roll the chest open",
+    "Breathe steadily"
+   ],
+   "mistake": "Knees splaying out.",
+   "muscles": [
+    "glutes",
+    "chest",
+    "spine"
+   ],
+   "pattern": "yoga",
+   "mode": "time",
+   "frames": [
+    "bridge_up"
+   ],
+   "tempo": 1,
+   "position": "supine"
+  },
+  {
+   "id": "figure-4-stretch",
+   "name": "Figure-4 Stretch",
+   "category": "stretch",
+   "impact": "low",
+   "cues": [
+    "On your back, ankle over the opposite knee",
+    "Pull the bottom thigh toward you",
+    "Keep the crossed foot flexed"
+   ],
+   "mistake": "Lifting your head and shoulders.",
+   "muscles": [
+    "glutes",
+    "piriformis"
+   ],
+   "pattern": "flexibility",
+   "mode": "time",
+   "perSide": true,
+   "position": "supine"
+  },
+  {
+   "id": "butterfly-stretch",
+   "name": "Butterfly Stretch",
+   "category": "stretch",
+   "impact": "low",
+   "cues": [
+    "Sit tall, soles of feet together",
+    "Let the knees fall open",
+    "Hinge forward gently"
+   ],
+   "mistake": "Bouncing the knees.",
+   "muscles": [
+    "inner thighs",
+    "hips"
+   ],
+   "pattern": "flexibility",
+   "mode": "time",
+   "position": "seated"
+  },
+  {
+   "id": "calf-stretch",
+   "name": "Wall Calf Stretch",
+   "category": "stretch",
+   "impact": "low",
+   "cues": [
+    "Hands on a wall, one foot back",
+    "Back heel down, back leg straight",
+    "Lean in until you feel the calf"
+   ],
+   "mistake": "Back heel lifting.",
+   "muscles": [
+    "calves",
+    "achilles"
+   ],
+   "pattern": "flexibility",
+   "mode": "time",
+   "perSide": true
+  },
+  {
+   "id": "neck-stretch",
+   "name": "Neck Side Stretch",
+   "category": "stretch",
+   "impact": "low",
+   "cues": [
+    "Sit or stand tall",
+    "Tip one ear toward the shoulder",
+    "Let the other shoulder drop"
+   ],
+   "mistake": "Pulling hard on the head.",
+   "muscles": [
+    "neck",
+    "upper traps"
+   ],
+   "pattern": "flexibility",
+   "mode": "time",
+   "perSide": true
+  },
+  {
+   "id": "brisk-walk",
+   "name": "Brisk Walk",
+   "category": "warmup",
+   "impact": "low",
+   "cues": [
+    "Walk at a pace where you can talk but not sing",
+    "Swing the arms",
+    "Tall posture"
+   ],
+   "mistake": "Hunching over a phone.",
+   "muscles": [
+    "heart rate",
+    "legs"
+   ],
+   "pattern": "cardio",
+   "mode": "time"
+  },
+  {
+   "id": "connection-breath",
+   "name": "Connection Breath",
+   "category": "prenatal",
+   "impact": "low",
+   "cues": [
+    "Breathe in: let ribs, belly and pelvic floor gently widen",
+    "Breathe out: feel the pelvic floor and deep belly gently lift and draw in",
+    "Keep it soft, about 30% effort"
+   ],
+   "mistake": "Bracing hard or holding your breath.",
+   "muscles": [
+    "pelvic floor",
+    "deep core",
+    "diaphragm"
+   ],
+   "pattern": "breath",
+   "mode": "time",
+   "frames": [
+    "seated"
+   ],
+   "tempo": 1,
+   "position": "seated"
+  },
+  {
+   "id": "pelvic-floor-lifts",
+   "name": "Pelvic Floor Lifts",
+   "category": "prenatal",
+   "impact": "low",
+   "cues": [
+    "Sit tall and breathe normally",
+    "Gently lift and squeeze as if stopping gas and urine, hold 3 to 5 seconds",
+    "Fully let go between reps. The relax matters as much as the lift"
+   ],
+   "mistake": "Squeezing glutes or thighs, or holding your breath.",
+   "muscles": [
+    "pelvic floor"
+   ],
+   "pattern": "pelvic",
+   "frames": [
+    "seated"
+   ],
+   "tempo": 1,
+   "position": "seated"
+  },
+  {
+   "id": "pelvic-floor-quick-flicks",
+   "name": "Pelvic Floor Quick Flicks",
+   "category": "prenatal",
+   "impact": "low",
+   "cues": [
+    "Quick lift and squeeze",
+    "Let go completely",
+    "Repeat at a steady rhythm"
+   ],
+   "mistake": "Only half-relaxing between flicks.",
+   "muscles": [
+    "pelvic floor"
+   ],
+   "pattern": "pelvic",
+   "mode": "time",
+   "frames": [
+    "seated"
+   ],
+   "tempo": 1,
+   "position": "seated"
+  },
+  {
+   "id": "heel-slides",
+   "name": "Heel Slides",
+   "category": "prenatal",
+   "impact": "low",
+   "cues": [
+    "On your back, knees bent",
+    "Breathe out, gently draw in the deep belly",
+    "Slide one heel out slowly, then back"
+   ],
+   "mistake": "Lower back arching as the leg slides.",
+   "muscles": [
+    "deep core"
+   ],
+   "pattern": "core",
+   "perSide": true,
+   "frames": [
+    "bridge_down",
+    "heel_slide_out"
+   ],
+   "tempo": 1.4,
+   "position": "supine"
+  },
+  {
+   "id": "supine-pelvic-tilt",
+   "name": "Pelvic Tilts",
+   "category": "prenatal",
+   "impact": "low",
+   "cues": [
+    "On your back, knees bent",
+    "Breathe out and gently flatten your back into the floor",
+    "Breathe in and release"
+   ],
+   "mistake": "Pushing with the feet or lifting the hips.",
+   "muscles": [
+    "deep core",
+    "lower back"
+   ],
+   "pattern": "core",
+   "position": "supine"
+  },
+  {
+   "id": "side-lying-clamshell",
+   "name": "Side-Lying Clamshell",
+   "category": "prenatal",
+   "impact": "low",
+   "cues": [
+    "Lie on your side, knees bent, heels together",
+    "Lift the top knee without rolling the hips back",
+    "Lower slowly"
+   ],
+   "mistake": "Rolling the top hip backward.",
+   "muscles": [
+    "glutes",
+    "hips"
+   ],
+   "pattern": "hinge",
+   "perSide": true,
+   "position": "sidelying"
+  },
+  {
+   "id": "side-lying-leg-lift",
+   "name": "Side-Lying Leg Lift",
+   "category": "prenatal",
+   "impact": "low",
+   "cues": [
+    "Lie on your side, bottom knee bent",
+    "Lift the top leg straight, toes forward",
+    "Lower with control"
+   ],
+   "mistake": "Turning the toes up to the ceiling.",
+   "muscles": [
+    "glutes",
+    "outer hip"
+   ],
+   "pattern": "hinge",
+   "perSide": true,
+   "position": "sidelying"
+  },
+  {
+   "id": "wall-squat",
+   "name": "Wall Squat",
+   "category": "prenatal",
+   "impact": "low",
+   "cues": [
+    "Back against a wall, feet a step forward",
+    "Slide down to a comfortable depth",
+    "Breathe out as you slide back up"
+   ],
+   "mistake": "Going deeper than feels comfortable.",
+   "muscles": [
+    "quads",
+    "glutes"
+   ],
+   "pattern": "squat",
+   "frames": [
+    "wall_stand",
+    "wall_sit"
+   ],
+   "tempo": 1.3,
+   "props": [
+    {
+     "type": "wall",
+     "x": 50,
+     "w": 8
+    }
+   ]
+  },
+  {
+   "id": "incline-plank",
+   "name": "Incline Plank",
+   "category": "prenatal",
+   "impact": "low",
+   "cues": [
+    "Hands on a counter or sturdy table",
+    "Walk feet back to a straight line",
+    "Breathe steadily, no straining"
+   ],
+   "mistake": "Holding your breath or bulging the belly.",
+   "muscles": [
+    "core",
+    "shoulders"
+   ],
+   "pattern": "core",
+   "mode": "time",
+   "frames": [
+    "incline_top"
+   ],
+   "tempo": 1,
+   "props": [
+    {
+     "type": "box",
+     "x": 132,
+     "y": 110,
+     "w": 52,
+     "h": 38
+    }
+   ]
+  }
+ ]
+}

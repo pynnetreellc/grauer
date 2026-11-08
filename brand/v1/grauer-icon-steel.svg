@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Grauer</title>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.25"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="tile"><rect width="512" height="512" rx="112"/></clipPath>
+
+    <!-- Cheek fur tufts (left side; mirrored for the right) -->
+    <path id="tuft" d="M82 300 L 60 324 L 86 326 L 66 354 L 94 352 L 82 382 L 110 372 L 106 404 L 132 388 L 136 420 L 160 400 Z"/>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="512" height="512" fill="#c3c9d0"/>
+    <rect width="512" height="512" fill="url(#glow)"/>
+    
+      <!-- silver shoulders: the "silverback" -->
+      <path d="M8 520 C 30 420, 120 372, 256 372 C 392 372, 482 420, 504 520 Z" style="fill:#eef1f4"/>
+      <path d="M8 520 C 30 420, 120 372, 256 372 C 392 372, 482 420, 504 520 Z" fill="url(#sheen)"/>
+      <!-- ears -->
+      <circle cx="84" cy="262" r="26" style="fill:#25292e"/>
+      <circle cx="428" cy="262" r="26" style="fill:#25292e"/>
+      <circle cx="87" cy="264" r="12" style="fill:#383d44"/>
+      <circle cx="425" cy="264" r="12" style="fill:#383d44"/>
+      <!-- head fur, with the tall crest gorillas have -->
+      <path d="M256 50
+               C 318 50, 362 90, 378 150
+               C 420 170, 440 222, 436 284
+               C 432 366, 368 446, 256 456
+               C 144 446, 80 366, 76 284
+               C 72 222, 92 170, 134 150
+               C 150 90, 194 50, 256 50 Z" style="fill:#25292e"/>
+      <use href="#tuft" style="fill:#25292e"/>
+      <use href="#tuft" transform="translate(512 0) scale(-1 1)" style="fill:#25292e"/>
+      <!-- crest highlight: a few fur strokes instead of a band -->
+      <g fill="none" style="stroke:#3c424a" stroke-width="9" stroke-linecap="round">
+        <path d="M206 96 C 222 82, 240 76, 256 76"/>
+        <path d="M306 96 C 290 82, 272 76, 256 76" />
+        <path d="M168 140 C 182 118, 200 104, 220 98"/>
+        <path d="M344 140 C 330 118, 312 104, 292 98"/>
+      </g>
+      <!-- face (bare skin) -->
+      <path d="M256 176
+               C 300 176, 338 186, 356 206
+               C 372 226, 368 252, 356 270
+               C 386 300, 394 350, 376 388
+               C 352 424, 300 440, 256 440
+               C 212 440, 160 424, 136 388
+               C 118 350, 126 300, 156 270
+               C 144 252, 140 226, 156 206
+               C 174 186, 212 176, 256 176 Z" style="fill:#5a6069"/>
+      <!-- eyes: drawn before the brow so the brow hoods them -->
+      <ellipse cx="206" cy="258" rx="18" ry="13" style="fill:#0f1012"/>
+      <ellipse cx="306" cy="258" rx="18" ry="13" style="fill:#0f1012"/>
+      <circle cx="209" cy="260" r="8" style="fill:#d6452f"/>
+      <circle cx="303" cy="260" r="8" style="fill:#d6452f"/>
+      <circle cx="209" cy="260" r="3.5" style="fill:#0f1012"/>
+      <circle cx="303" cy="260" r="3.5" style="fill:#0f1012"/>
+      <!-- heavy brow ridge, angled down toward the center = determined look -->
+      <path d="M128 228
+               C 168 190, 228 192, 256 212
+               C 284 192, 344 190, 384 228
+               C 370 246, 340 246, 316 250
+               C 292 254, 270 256, 256 266
+               C 242 256, 220 254, 196 250
+               C 172 246, 142 246, 128 228 Z" style="fill:#131518"/>
+      <!-- broad flat nose -->
+      <path d="M256 266
+               C 268 266, 274 286, 280 298
+               C 304 304, 318 322, 308 340
+               C 298 356, 272 352, 256 346
+               C 240 352, 214 356, 204 340
+               C 194 322, 208 304, 232 298
+               C 238 286, 244 266, 256 266 Z" style="fill:#383d44"/>
+      <ellipse cx="232" cy="332" rx="14" ry="9" transform="rotate(-18 232 332)" style="fill:#0f1012"/>
+      <ellipse cx="280" cy="332" rx="14" ry="9" transform="rotate(18 280 332)" style="fill:#0f1012"/>
+      <!-- muzzle crease + stern, set mouth -->
+      <path d="M214 372 C 236 380, 276 380, 298 372" fill="none" style="stroke:#383d44" stroke-width="5" stroke-linecap="round"/>
+      <path d="M186 404 Q 196 396 212 396 L 300 396 Q 316 396 326 404" fill="none" style="stroke:#0f1012" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    
+  </g>
+</svg>
